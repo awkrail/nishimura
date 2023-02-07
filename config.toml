@@ -129,7 +129,7 @@ publishDir = "docs"
         name = "State-aware Video Procedural Captioning"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
         dest = "Multimedia Tools and Applications"
-        link = ""
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura-MTAP2023.pdf"
         code_link = ""
         blog_link = ""
   [[params.journal.paper]]
@@ -248,42 +248,42 @@ publishDir = "docs"
         name = "大規模言語モデルからの知識抽出に基づく画像からのスクリプト予測の検討"
         authors = "八木 拓真, <u>西村 太一</u>, 清丸 寛一, 唐井 希"
         dest = "言語処理学会第29回年次大会 (NLP2023)"
-        link = ""
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/yagi-NLP2023.pdf"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
         name = "株式投資家の関心を考慮したニュース記事抽出によるストーリー生成"
         authors = "木下 聖, <u>西村 太一</u>, 亀甲 博貴, 森 信介"
         dest = "言語処理学会第29回年次大会 (NLP2023)"
-        link = ""
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/kinoshita-NLP2023.pdf"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
-        name = "係り受けに基づくテキスト中の地名表現認識と緯度経度推定ツールの開発"
+        name = "テキスト中の場所表現認識と係り受けに基づく緯度経度推定ツールの開発"
         authors = "大野 けやき, <u>西村 太一</u>, 亀甲 博貴, 森 信介"
         dest = "言語処理学会第29回年次大会 (NLP2023)"
-        link = ""
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/ohno-NLP2023.pdf"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
         name = "VideoCLIPを用いた実験動画からのプロトコル生成"
         authors = "山本 航輝, <u>西村 太一</u>, 亀甲 博貴, 森 信介"
         dest = "言語処理学会第29回年次大会 (NLP2023)"
-        link = ""
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/yamamoto-NLP2023.pdf"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
         name = "単語の階層関係に基づくデータ拡張を利用した画像キャプション生成の検討"
         authors = "吉田 智哉, <u>西村 太一</u>, 亀甲 博貴, 森 信介"
         dest = "言語処理学会第29回年次大会 (NLP2023)"
-        link = ""
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/yoshida-NLP2023.pdf"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
         name = "テキストアナリティクスツールのログからの実験設定の説明文生成"
         authors = "森田 康介, <u>西村 太一</u>, 亀甲 博貴, 森 信介"
         dest = "言語処理学会第29回年次大会 (NLP2023)"
-        link = ""
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/morita-NLP2023.pdf"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
