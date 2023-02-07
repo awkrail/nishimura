@@ -1,0 +1,12 @@
+<h4>Patent</h4>
+{{- range $index, $publications := .Site.Params.patent -}}
+<div class="year">{{ $publications.year }}</div>
+
+<ul>
+  {{ range $elem_index, $publication := $publications.detail }}
+  <li>
+    <p class="publications">{{ $publication.name }}, {{ $publication.number }}, {{ $publication.year }}</p>
+  </li>
+  {{ end }}
+</ul>
+{{- end -}}
