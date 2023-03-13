@@ -134,7 +134,7 @@ publishDir = "docs"
         blog_link = ""
   [[params.journal.paper]]
         name = "BioVL2: An Egocentric Biochemical Video-and-Language Dataset"
-        authors = '<u>Taichi Nishimura</u>, Kojiro Sakoda, Atsushi Ushiku, Atsushi Hashimoto, Natsuko Okuda, Fumihito Ono, Hirotaka Kameko, and Shinsuke Mori'
+        authors = '<u>Taichi Nishimura</u>, Kojiro Sakoda, Atsushi Ushiku, Atsushi Hashimoto, Natsuko Okuda, Fumihito Ono, Hirotaka Kameko, and Shinsuke Mori <font color="red"> (Best Paper Award)</font>'
         dest = "Journal of Natural Language Processing Vol 29 (4) (in Japanese)"
         link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura_nlp_journal_2022-3.pdf"
         code_link = "https://github.com/awkrail/BioVL2"
