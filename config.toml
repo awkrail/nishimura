@@ -425,6 +425,11 @@ publishDir = "docs"
 
 [[params.patent]]
     [[params.patent.detail]]
+        name = "Information processing device and machine learning method"
+        number = "US Patent App. 17/802,620"
+        year = "2023"
+
+    [[params.patent.detail]]
         name = "Information processing system and machine learning algorithm"
         number = "JP Patent P2021-140551A"
         year = "2021"
