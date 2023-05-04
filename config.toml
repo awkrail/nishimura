@@ -221,6 +221,13 @@ publishDir = "docs"
 
 [[params.domestic_conference]]
     [[params.domestic_conference.paper]]
+        name = "「BioVL2データセット: 生化学分野における一人称視点の実験映像への言語アノテーション」の研究経緯"
+        authors = "<u>西村 太一</u>"
+        dest = "自然言語処理"
+        link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
         name = "大規模言語モデルからの知識抽出に基づく画像からのスクリプト予測の検討"
         authors = "八木 拓真, <u>西村 太一</u>, 清丸 寛一, 唐井 希"
         dest = "言語処理学会第29回年次大会 (NLP2023)"
