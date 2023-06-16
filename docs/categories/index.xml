@@ -5,10 +5,6 @@
     <link>https://awkrail.github.io/nishimura/categories/</link>
     <description>Recent content in Categories on Taichi Nishimura (西村 太一)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://awkrail.github.io/nishimura/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://awkrail.github.io/nishimura/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

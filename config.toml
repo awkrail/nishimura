@@ -154,6 +154,15 @@ publishDir = "docs"
 		code_link = ""
 		blog_link = ""
 
+[[params.journal_co_author]]
+  [[params.journal_co_author.paper]]
+        name = "Visual Recipe Flow: A Dataset for Learning Visual State Changes of Objects with Recipe Flows"
+        authors = "Keisuke Shirai, Atsushi Hashimoto, <u>Taichi Nishimura</u>, Hirotaka Kameko, Shuhei Kurita, and Shinsuke Mori"
+        dest = "Journal of Natural Language Processing (in Japanese, to appear)"
+        link = ""
+        code_link = ""
+        blog_link = ""
+
 [[params.international_conference]]
   [[params.international_conference.paper]]
         name="Multimodal Dish Pairing: Predicting Side Dishes to Serve with a Main Dish"
@@ -248,7 +257,7 @@ publishDir = "docs"
         name = "「BioVL2データセット: 生化学分野における一人称視点の実験映像への言語アノテーション」の研究経緯"
         authors = "<u>西村 太一</u>"
         dest = "自然言語処理"
-        link = ""
+        link = "https://www.jstage.jst.go.jp/article/jnlp/30/2/30_833/_pdf/-char/ja"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
