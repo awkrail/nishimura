@@ -50,22 +50,6 @@ publishDir = "docs"
         supervisor = "Shinsuke Mori <br> <b>Research Fellow (DC1)</b>, JSPS Research Fellowships for Young Scientists (April 2021~March 2023)"
   
   [[params.biography.career]]
-        name = "Institute of Industrial Science, The University of Tokyo"
-        position = "Research Assistant"
-        thesis = ""
-        start = "October 2022"
-        end = "Present"
-        supervisor = "Takuma Yagi"
-
-  [[params.biography.career]]
-        name = "Hatena, Inc"
-        position = "Software Engineer"
-        thesis = ""
-        start = "July 2022"
-        end = "Present"
-        supervisor = "id:yigarashi"
-  
-  [[params.biography.career]]
         name = "Apple Japan"
         position = "Software Engineer Intern"
         thesis = ""
@@ -75,18 +59,10 @@ publishDir = "docs"
 
   [[params.biography.career]]
 		name = "Preferred Networks"
-        position = "Project Engineer"
-        thesis = ""
-		start = "October 2021"
-		end  = "March 2022"
-        supervisor = "Masaaki Kotera and Katsuhiko Ishiguro"
-
-  [[params.biography.career]]
-        name = "Preferred Networks"
-        position = "Research Intern"
+        position = "Research Intern / Project Engineer"
         thesis = ""
         start = "August 2021"
-        end = "September 2021"
+        end  = "March 2022"
         supervisor = "Masaaki Kotera and Katsuhiko Ishiguro"
 
   [[params.biography.career]]
