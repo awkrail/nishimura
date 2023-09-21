@@ -34,15 +34,6 @@ textarea {
   text-shadow: none;
 }
 
-hr {
-  display: none;
-  height: 1px;
-  border: 0;
-  /* border-top: 1px solid #ccc; */
-  margin: 1rem 0;
-  padding: 0;
-}
-
 audio,
 canvas,
 img,
@@ -81,7 +72,7 @@ span {
 
 a,
 a:hover {
-  color: #a00;
+  color: rgb(65, 4, 197);
   text-decoration: none;
 }
 
@@ -211,7 +202,6 @@ ul {
 .header h2 {
   margin: 0;
   padding: 0;
-  font-size: 2rem;
   line-height: 1.3em;
 }
 
@@ -382,22 +372,6 @@ ul {
     padding: 20px;
   }
 
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.6rem;
-  }
-
-  h3 {
-    font-size: 1.2rem;
-  }
-
-  h4 {
-    font-size: 1rem;
-  }
-
   .container {
     margin-top: 10px;
   }
@@ -410,7 +384,7 @@ ul {
 }
 
 .biography {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .en-name-bold {

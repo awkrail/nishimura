@@ -1,128 +1,113 @@
 baseURL = "https://awkrail.github.io/nishimura"
 languageCode = "en-us"
-title = "Taichi Nishimura (西村 太一)"
+title = "Taichi Nishimura, Ph.D."
 theme = "avicenna"
 timeout= 3000
 canonifyurls = true
 publishDir = "docs"
 
 [markup]
-  [markup.goldmark]
+[markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
 [params]
-  subtitle= "Ph.D Student"
-  interests="Vision-and-Language, Image/Video Captioning, Procedural Text Understanding"
-  cv_name= "https://drive.google.com/file/d/1RokhCKj6oAPA2VocoS1n0axOdO4fsmOz/view?usp=sharing"
-  blog="http://taichitary.hatenablog.com/"
+    subtitle= "Ph.D. in Informatics"
 
 [[params.affilation]]
-  name = "Kyoto University"
-  position = "Ph.D Student"
-  contact = "taichitary@gmail.com"
+    name = "LINE Corporation"
+    position = "Research Software Engineer"
+    contact = "taichitary@gmail.com"
 
-[[params.social]]
-  name = "GitHub"
-  icon = "github"
-  url = "https://github.com/awkrail"
+[[params.work]]
+    [[params.work.career]]
+        name = "LINE Corporation"
+        position = "Research Software Engineer"
+        start = "October 2023"
+        end = "Present"
 
-[[params.social]]
-  name = "LinkedIn"
-  icon = "linkedin"
-  url = "https://www.linkedin.com/in/taichi-nishimura-06233b12b/"
-
-
-[[params.introduction.paragraph]]
-  text="""
-  Taichi Nishimura is currently a final-year Ph.D. student at the natural language processing lab, Kyoto University with Prof. Shinsuke Mori. Previously, he received a Bachelor of Design at Kyushu University and a Master of Informatics at Kyoto University, respectively. His current research areas are multimodal learning of instructional videos. Specifically, he focuses on procedural text generation from an instructional video ([Nishimura+ ACMMM21], [Nishimura+ IEEE Access21], and [Nishimura+ Arxiv22]) and its application to the biochemical domain ([Nishimura+ ICCVW21] and [Nishimura+ JNLP22]).
-  <br><br>
-  <b>Reviewer experiences.</b> Neural Processing Letters, LREC2022, MIRU2022
-   """
-
-[[params.biography]]
-  [[params.biography.career]]
-		name = "Kyoto University"
-        position = "Ph.D student"
-        thesis = ""
-		start = "October 2020"
-		end  = "Present"
-        supervisor = "Shinsuke Mori <br> <b>Research Fellow (DC1)</b>, JSPS Research Fellowships for Young Scientists (April 2021~March 2023)"
-  
-  [[params.biography.career]]
+    [[params.work.career]]
+        name = "OMRON SINIC X"
+        position = "Researcher (Part time)"
+        start = "October 2023"
+        end = "Present"
+    
+    [[params.work.career]]
         name = "Apple Japan"
-        position = "Software Engineer Intern"
-        thesis = ""
+        position = "Software Engineer Internship"
         start = "January 2022"
         end = "May 2022"
-        supervisor = "Jiunn Bay and Roongroj Nopsuwanchai"
 
-  [[params.biography.career]]
-		name = "Preferred Networks"
-        position = "Research Intern / Project Engineer"
-        thesis = ""
+    [[params.work.career]]
+        name = "Preferred Networks"
+        position = "Project Engineer Internship"
         start = "August 2021"
-        end  = "March 2022"
-        supervisor = "Masaaki Kotera and Katsuhiko Ishiguro"
+        end = "March 2022"
 
-  [[params.biography.career]]
-		name = "Kyoto University"
-        position = "M.S. in Informatics"
-        thesis = "Structure-Aware Procedural Text Generation from an Image Sequence"
-        thesis_url = ""
-		start = "April 2019"
-		end  = "September 2020"
+[[params.education]]
+    [[params.education.career]]
+        name = "Kyoto University"
+        degree = "Ph.D. in Informatics"
+        start = "October 2020"
+        end = "September 2023"
+        supervisor = "Shinsuke Mori <br> <b>Research Fellow (DC1)</b>, JSPS Research Fellowships for Young Scientists (April 2021~September 2023)"
+
+    [[params.education.career]]
+        name = "Kyoto University"
+        degree = "M.S. in Informatics"
+        start = "April 2019"
+        end = "September 2020"
         supervisor = 'Shinsuke Mori <br><font color="red">Early graduation</font>'
 
-  [[params.biography.career]]
-		name = "OMRON SINIC X"
-        position = "Research Intern"
-        thesis = ""
-		start = "Feburary 2020"
-		end  = "March 2020"
-        supervisor = "Atsushi Hashimoto and Yoshitaka Ushiku"
-  
-  [[params.biography.career]]
-		name = "Kyushu University"
-        position = "B.E. in Design"
-        thesis = "Generating Instructions with Photo by Selecting Frames from Execution Video"
-        thesis_url = ""
-		start = "April 2015"
-		end  = "March 2019"
+    [[params.education.career]]
+        name = "Kyushu University"
+        degree = "B.E. in Design"
+        start = "April 2015"
+        end = "March 2019"
         supervisor = "Kiyoshi Tomimatsu"
 
-[[params.preprint]]
-  [[params.preprint.paper]]
+[[params.journal]]
+    [[params.journal.paper]]
         name = "Recipe Generation from Unsegmented Cooking Videos"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
-        dest = "arXiv:2209.10134 (Under review on IEEE Transactions on Multimedia)"
+        dest = "arXiv:2209.10134 (Under review on ACM Transactions on Multimedia Computing, Communications, and Applications)"
         link = "https://arxiv.org/abs/2209.10134"
         code_link = "https://github.com/awkrail/jesg"
         blog_link = ""
 
-[[params.journal]]
-  [[params.journal.paper]]
+    [[params.journal.paper]]
+        name = "Visual Recipe Flow: A Dataset for Learning Visual State Changes of Objects with Recipe Flows"
+        authors = "Keisuke Shirai, Atsushi Hashimoto, <u>Taichi Nishimura</u>, Hirotaka Kameko, Shuhei Kurita, and Shinsuke Mori"
+        dest = "Journal of Natural Language Processing (in Japanese)"
+        link = "https://www.jstage.jst.go.jp/article/jnlp/30/3/30_1042/_pdf/-char/ja"
+        code_link = ""
+        blog_link = ""
+
+    [[params.journal.paper]]
         name = "State-aware Video Procedural Captioning"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
         dest = "Multimedia Tools and Applications"
         link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura-MTAP2023.pdf"
         code_link = ""
         blog_link = ""
-  [[params.journal.paper]]
+  
+    [[params.journal.paper]]
         name = "BioVL2: An Egocentric Biochemical Video-and-Language Dataset"
         authors = '<u>Taichi Nishimura</u>, Kojiro Sakoda, Atsushi Ushiku, Atsushi Hashimoto, Natsuko Okuda, Fumihito Ono, Hirotaka Kameko, and Shinsuke Mori <font color="red"> (Best Paper Award)</font>'
         dest = "Journal of Natural Language Processing Vol 29 (4) (in Japanese)"
         link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura_nlp_journal_2022-3.pdf"
         code_link = "https://github.com/awkrail/BioVL2"
         blog_link = ""
-  [[params.journal.paper]]
+  
+    [[params.journal.paper]]
         name = "Structure-Aware Procedural Text Generation from an Image Sequence"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, Yoko Yamakata, and Shinsuke Mori"
         dest = "IEEE Access Vol. 9"
         link = "https://ieeexplore.ieee.org/document/9288722"
         code_link = ""
         blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
-  [[params.journal.paper]]
+  
+    [[params.journal.paper]]
 		name = "Recipe Generation from a Photo Sequence by Focusing on Verbalizing Important Terms"
 		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, and Shinsuke Mori'
 		dest  = "Journal of Natural Language Processing Vol. 27 (2) (in Japanese)"
@@ -130,17 +115,16 @@ publishDir = "docs"
 		code_link = ""
 		blog_link = ""
 
-[[params.journal_co_author]]
-  [[params.journal_co_author.paper]]
-        name = "Visual Recipe Flow: A Dataset for Learning Visual State Changes of Objects with Recipe Flows"
-        authors = "Keisuke Shirai, Atsushi Hashimoto, <u>Taichi Nishimura</u>, Hirotaka Kameko, Shuhei Kurita, and Shinsuke Mori"
-        dest = "Journal of Natural Language Processing (in Japanese, to appear)"
-        link = ""
-        code_link = ""
+[[params.international_conference]]
+    [[params.international_conference.paper]]
+        name="Visual Recipe Flow: A Dataset for Learning Visual State Changes of Objects with Recipe Flows"
+        authors="Keisuke Shirai, Atsushi Hashimoto, <u>Taichi Nishimura</u>, Hirotaka Kameko, Shuhei Kurita, Yoshitaka Ushiku and Shinsuke Mori"
+        dest = "The 29th International Conference on Computational Linguistics (COLING2022)"
+        link = "https://arxiv.org/abs/2209.05840"
+        code_link = "https://github.com/kskshr/Visual-Recipe-Flow"
         blog_link = ""
 
-[[params.international_conference]]
-  [[params.international_conference.paper]]
+    [[params.international_conference.paper]]
         name="Multimodal Dish Pairing: Predicting Side Dishes to Serve with a Main Dish"
         authors='<u>Taichi Nishimura</u>, Katsuhiko Ishiguro, Keita Higuchi, and Masaaki Kotera <font color="red"> (Best Paper Award)</font>'
         dest = "The 1st International Workshop on Multimedia for Cooking, Eating, and related APPlications 2022 in conjunction with ACMMM2022 (CEA++2022)"
@@ -148,63 +132,23 @@ publishDir = "docs"
         code_link = ""
         blog_link = ""
 
-  [[params.international_conference.paper]]
-        name="State-aware Video Procedural Captioning"
-        authors="<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
-        dest = "The 29th ACM International Conference on Multimedia (ACMMM2021)"
-        link = "https://dl.acm.org/doi/abs/10.1145/3474085.3475322"
-        code_link = "https://github.com/awkrail/svpc"
-        blog_link = ""
-
-  [[params.international_conference.paper]]
-        name="Egocentric Biochemical Video-and-Language Dataset"
-        authors="<u>Taichi Nishimura</u>, Kojiro Sakoda, Atsushi Hashimoto, Yoshitaka Ushiku, Natsuko Tanaka, Fumihito Ono, Hirotaka Kameko, and Shinsuke Mori"
-        dest = "The 4th Workshop on Closing the Loop Between Vision and Language in conjunction with ICCV2021 (CLVL2021)"
-        link = "https://openaccess.thecvf.com/content/ICCV2021W/CLVL/papers/Nishimura_Egocentric_Biochemical_Video-and-Language_Dataset_ICCVW_2021_paper.pdf"
-        code_link = ""
-
-  [[params.international_conference.paper]]
-		name = "Visual Grounding Annotation of Recipe Flow Graph"
-		authors = '<u>Taichi Nishimura</u>, Suzushi Tomori, Hayato Hashimoto, Atsushi Hashimoto, Yoko Yamakata, Jun Harashima, Yoshitaka Ushiku and Shinsuke Mori'
-		dest  = "The 12th International Conference on Language Resources and Evaluation (LREC2020)"
-		link = "https://www.aclweb.org/anthology/2020.lrec-1.527.pdf"
-		code_link = ""
-		blog_link = ""
-
-  [[params.international_conference.paper]]
-		name = "Procedural Text Generation from a Photo Sequence"
-		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, and Shinsuke Mori'
-		dest  = "The 12th International Conference on Natural Language Generation (INLG2019)"
-		link = "https://aclanthology.org/W19-8650/"
-		code_link = ""
-		blog_link = "https://drive.google.com/file/d/10z_cFHy3O_zqjRF7fAAKjW7MN3AREbqH/view?usp=sharing"
-
-  [[params.international_conference.paper]]
-		name = "Frame Selection for Producing Recipe with Pictures from an Execution Video of a Recipe"
-		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoko Yamakata, and Shinsuke Mori <font color="red"> (Best Paper Award)</font>'
-		dest  = "The 11th Workshop on Multimedia for Cooking and Eating Activities in conjunction with ICMR2019 (CEA2019)"
-		link = "https://dl.acm.org/doi/10.1145/3326458.3326928"
-		code_link = ""
-		blog_link = "https://speakerdeck.com/awkrail/frame-selection-for-producing-recipe-with-pictures-from-an-execution-video-of-a-recipe"
-
-[[params.international_conference_co_author]]
-    [[params.international_conference_co_author.paper]]
-        name="Visual Recipe Flow: A Dataset for Learning Visual State Changes of Objects with Recipe Flows"
-        authors="Keisuke Shirai, Atsushi Hashimoto, <u>Taichi Nishimura</u>, Hirotaka Kameko, Shuhei Kurita, Yoshitaka Ushiku and Shinsuke Mori"
-        dest = "The 29th International Conference on Computational Linguistics (COLING2022)"
-        link = "https://arxiv.org/abs/2209.05840"
-        code_link = ""
-        blog_link = ""
-
-    [[params.international_conference_co_author.paper]]
+    [[params.international_conference.paper]]
         name="Recipe Recommendation for Balancing Ingredient Preference and Daily Nutrients"
         authors="Sara Ozeki, Masaaki Kotera, Katsuhiko Ishiguro, <u>Taichi Nishimura</u>, Keita Higuchi"
         dest = "The 1st International Workshop on Multimedia for Cooking, Eating, and related APPlications 2022 in conjunction with ACMMM2022 (CEA++2022)"
         link = "https://dl.acm.org/doi/abs/10.1145/3552485.3554941"
         code_link = ""
         blog_link = ""
-
-    [[params.international_conference_co_author.paper]]
+    
+    [[params.international_conference.paper]]
+        name = "Multimedia Retrieval of Historical Materials"
+        authors="Jieyong Zhu, <u>Taichi Nishimura</u>, Makoto Goto, and Shinsuke Mori"
+        dest = "Digital Humanities 2022 (DH2022)"
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/zhu-DH2022.pdf"
+        code_link = ""
+        blog_link = ""
+    
+    [[params.international_conference.paper]]
         name = "Image Description Dataset for Language Learners"
         authors="Kento Tanaka, <u>Taichi Nishimura</u>, Hiroaki Nanjo, Keisuke Shirai, Hirotaka Kameko, and Masatake Dantsuji"
         dest = "The 13th International Conference on Language Resources and Evaluation (LREC2022)"
@@ -212,21 +156,53 @@ publishDir = "docs"
         code_link = ""
         blog_link = ""
 
-    [[params.international_conference_co_author.paper]]
-        name = "Multimedia Retrieval of Historical Materials"
-        authors="Jieyong Zhu, <u>Taichi Nishimura</u>, Makoto Goto, and Shinsuke Mori"
-        dest = "Digital Humanities 2022 (DH2022)"
-        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/zhu-DH2022.pdf"
-        code_link = ""
-        blog_link = ""
-
-    [[params.international_conference_co_author.paper]]
+    [[params.international_conference.paper]]
         name = "Cross-modal Representation Learning for Understanding Manufacturing Procedure"
         authors="Atsushi Hashimoto, <u>Taichi Nishimura</u>, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
         dest = "The 23th International Conference on Human-Computer Interaction (HCII2022)"
         link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura-HCII2022.pdf"
         code_link = ""
         blog_link = ""
+
+    [[params.international_conference.paper]]
+        name="State-aware Video Procedural Captioning"
+        authors="<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
+        dest = "The 29th ACM International Conference on Multimedia (ACMMM2021)"
+        link = "https://dl.acm.org/doi/abs/10.1145/3474085.3475322"
+        code_link = "https://github.com/awkrail/svpc"
+        blog_link = ""
+
+    [[params.international_conference.paper]]
+        name="Egocentric Biochemical Video-and-Language Dataset"
+        authors="<u>Taichi Nishimura</u>, Kojiro Sakoda, Atsushi Hashimoto, Yoshitaka Ushiku, Natsuko Tanaka, Fumihito Ono, Hirotaka Kameko, and Shinsuke Mori"
+        dest = "The 4th Workshop on Closing the Loop Between Vision and Language in conjunction with ICCV2021 (CLVL2021)"
+        link = "https://openaccess.thecvf.com/content/ICCV2021W/CLVL/papers/Nishimura_Egocentric_Biochemical_Video-and-Language_Dataset_ICCVW_2021_paper.pdf"
+        code_link = ""
+
+    [[params.international_conference.paper]]
+		name = "Visual Grounding Annotation of Recipe Flow Graph"
+		authors = '<u>Taichi Nishimura</u>, Suzushi Tomori, Hayato Hashimoto, Atsushi Hashimoto, Yoko Yamakata, Jun Harashima, Yoshitaka Ushiku and Shinsuke Mori'
+		dest  = "The 12th International Conference on Language Resources and Evaluation (LREC2020)"
+		link = "https://www.aclweb.org/anthology/2020.lrec-1.527.pdf"
+		code_link = ""
+		blog_link = ""
+
+    [[params.international_conference.paper]]
+		name = "Procedural Text Generation from a Photo Sequence"
+		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, and Shinsuke Mori'
+		dest  = "The 12th International Conference on Natural Language Generation (INLG2019)"
+		link = "https://aclanthology.org/W19-8650/"
+		code_link = ""
+		blog_link = "https://drive.google.com/file/d/10z_cFHy3O_zqjRF7fAAKjW7MN3AREbqH/view?usp=sharing"
+
+    [[params.international_conference.paper]]
+		name = "Frame Selection for Producing Recipe with Pictures from an Execution Video of a Recipe"
+		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoko Yamakata, and Shinsuke Mori <font color="red"> (Best Paper Award)</font>'
+		dest  = "The 11th Workshop on Multimedia for Cooking and Eating Activities in conjunction with ICMR2019 (CEA2019)"
+		link = "https://dl.acm.org/doi/10.1145/3326458.3326928"
+		code_link = ""
+		blog_link = "https://speakerdeck.com/awkrail/frame-selection-for-producing-recipe-with-pictures-from-an-execution-video-of-a-recipe"
+
 
 [[params.domestic_conference]]
     [[params.domestic_conference.paper]]
@@ -415,22 +391,6 @@ publishDir = "docs"
 		code_link = ""
 		blog_link = ""
 
-[[params.patent]]
-    [[params.patent.detail]]
-        name = "Information processing device and machine learning method"
-        number = "US Patent App. 17/802,620"
-        year = "2023"
-
-    [[params.patent.detail]]
-        name = "Information processing system and machine learning algorithm"
-        number = "JP Patent P2021-140551A"
-        year = "2021"
-
-    [[params.patent.detail]]
-        name = "Image processing device, image processing sytem, and image processing program"
-        number = "JP Patent P2020-88740A"
-        year = "2020"
-
 [[params.work]]
   [[params.work.detail]]
 		name = "OMRON SINIC X Corporation"
@@ -438,28 +398,4 @@ publishDir = "docs"
 		position  = "Research Assistant"
         location = "Tokyo"
 		mentor = "Mentor: Atsushi Hashimoto, Yoshitaka Ushiku"
-		code_link = ""
-
-  [[params.work.detail]]
-		name = "Pixiv, inc"
-		duration = '2017/11 ~ 2019/02'
-		position  = "Machine Learning Engineer"
-        location = "Fukuoka"
-		mentor = "Mentor: Atsushi Takayama"
-		code_link = ""
-  
-  [[params.work.detail]]
-		name = "Mercari, inc"
-		duration = '2017/10 ~ 2018/01'
-		position  = "BE BOLD INTERNSHIP"
-        location = "Ohio, USA"
-		mentor = ""
-		code_link = ""
-  
-  [[params.work.detail]]
-		name = "Wantedly, inc"
-		duration = '2017/08 ~ 2017/09'
-		position  = "Machine Learning Engineer"
-        location = "Tokyo"
-		mentor = "Mentor: Makoto Tanji"
 		code_link = ""

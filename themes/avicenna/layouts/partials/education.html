@@ -1,18 +1,13 @@
-<h3>Biography</h3>
-{{- range $index, $biographys := .Site.Params.biography -}}
+<h3>Education</h3>
+{{- range $index, $educations := .Site.Params.education -}}
 <ul>
-  {{ range $elem_index, $biography := $biographys.career }}
+  {{ range $elem_index, $education := $educations.career }}
   <div class="row biography">
         <div class="col-sm-5">
-        {{$biography.start}} - {{$biography.end}}
+        {{$education.start}} - {{$education.end}}
         </div>
         <div class="col-sm-7">
-        <b>{{$biography.position}}</b>, {{ $biography.name }}
-        <br>
-        {{if $biography.thesis }} Thesis: <a href="{{$biography.thesis_url}}">{{$biography.thesis}}</a>
-        <br> 
-        {{ end }}
-        Supevisor: {{ $biography.supervisor | markdownify }}
+        <b>{{$education.degree}}</b>, {{ $education.name }}
         </div>
   </div>
   {{ end }}

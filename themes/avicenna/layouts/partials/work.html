@@ -1,30 +1,15 @@
-<div class="introduction">
-	<h3>Work experience</h3>
-  {{- range $index, $experience := .Site.Params.work -}}
-  <ul>
-    {{ range $elem_index, $work := $experience.detail }}
-    <li>
-      <p class="publications">{{ $work.name }},</p>
-      {{ $work.duration | markdownify }},
-      {{ $work.position | markdownify }},
-      {{ $work.location | markdownify }}.
-  
-      {{ if or ($work.code_link) $work.blog_link }}
-      <span class="code_blog">
-        {{ with $work.code_link }}
-        [<a href="{{ $work.code_link }}">code</a>]
-        {{ end }}
-      </span>
-      {{ end }}
-      
-      {{ if $work.mentor }}
-      <span class="collaborators">
-        {{ $work.mentor | markdownify }}
-      </span>
-      {{ end }}
-
-    </li>
-    {{ end }}
-  </ul>
-  {{- end -}}
-</div>
+<h3>Work Experience</h3>
+{{- range $index, $educations := .Site.Params.work -}}
+<ul>
+  {{ range $elem_index, $education := $educations.career }}
+  <div class="row biography">
+        <div class="col-sm-5">
+        {{$education.start}} - {{$education.end}}
+        </div>
+        <div class="col-sm-7">
+        <b>{{$education.position}}</b>, {{ $education.name }}
+        </div>
+  </div>
+  {{ end }}
+</ul>
+{{- end -}}
