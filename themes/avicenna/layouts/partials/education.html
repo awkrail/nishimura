@@ -8,6 +8,10 @@
         </div>
         <div class="col-sm-7">
         <b>{{$education.degree}}</b>, {{ $education.name }}
+        <br>
+        {{ if ne $education.note "" }}
+          {{$education.note}}
+        {{- end -}}
         </div>
   </div>
   {{ end }}

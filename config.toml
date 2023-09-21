@@ -50,21 +50,21 @@ publishDir = "docs"
         degree = "Ph.D. in Informatics"
         start = "October 2020"
         end = "September 2023"
-        supervisor = "Shinsuke Mori <br> <b>Research Fellow (DC1)</b>, JSPS Research Fellowships for Young Scientists (April 2021~September 2023)"
+        note = "Research Fellow (DC1), JSPS Research Fellowships for Young Scientists"
 
     [[params.education.career]]
         name = "Kyoto University"
         degree = "M.S. in Informatics"
         start = "April 2019"
         end = "September 2020"
-        supervisor = 'Shinsuke Mori <br><font color="red">Early graduation</font>'
+        note = ""
 
     [[params.education.career]]
         name = "Kyushu University"
         degree = "B.E. in Design"
         start = "April 2015"
         end = "March 2019"
-        supervisor = "Kiyoshi Tomimatsu"
+        note = ""
 
 [[params.journal]]
     [[params.journal.paper]]
