@@ -15,14 +15,14 @@ publishDir = "docs"
     subtitle= "Ph.D. in Informatics"
 
 [[params.affilation]]
-    name = "LINE Corporation"
+    name = "LY Corporation"
     position = "Research Software Engineer"
     contact = "taichitary@gmail.com"
 
 [[params.work]]
     [[params.work.career]]
-        name = "LINE Corporation"
-        position = "Research Software Engineer"
+        name = "LY Corporation"
+        position = "Researcher / Software Engineer"
         start = "October 2023"
         end = "Present"
 
