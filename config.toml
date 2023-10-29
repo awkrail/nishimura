@@ -206,6 +206,13 @@ publishDir = "docs"
 
 [[params.domestic_conference]]
     [[params.domestic_conference.paper]]
+        name = "一人称視点動画を用いたマルチモーダル作業支援システムの提案"
+        authors = "梶村 恵矢, <u>西村 太一</u>, 羽路 悠斗, 山本 航輝, 崔 泰毓, 亀甲 博貴, 森 信介"
+        dest = "第31回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2023)"
+        link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
         name = "「BioVL2データセット: 生化学分野における一人称視点の実験映像への言語アノテーション」の研究経緯"
         authors = "<u>西村 太一</u>"
         dest = "自然言語処理"
