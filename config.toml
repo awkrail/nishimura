@@ -25,12 +25,6 @@ publishDir = "docs"
         position = "Researcher"
         start = "October 2023"
         end = "Present"
-
-    [[params.work.career]]
-        name = "OMRON SINIC X"
-        position = "Researcher (Part time)"
-        start = "October 2023"
-        end = "Present"
     
     [[params.work.career]]
         name = "Apple Japan"
