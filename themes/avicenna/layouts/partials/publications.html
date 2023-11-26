@@ -1,7 +1,7 @@
 <div class="introduction">
 	<h3>Publication</h3>
 	<!-- International Conference and Workshop -->
-	<h4>International Conference and Workshop</h4>
+	<h4>International Journal, Conference, and Workshop</h4>
 	{{- range $index, $publications := .Site.Params.international_conference -}}
 	<div class="year">{{ $publications.year }}</div>
 	<ul>
@@ -33,80 +33,9 @@
 		{{ end }}
 	</ul>
 	{{- end -}}
-	
-	<!-- Journal -->
-	<h4>International Journal</h4>
-	{{- range $index, $publications := .Site.Params.en_journal -}}
-	<div class="year">{{ $publications.year }}</div>
-	<ul>
-	{{ range $elem_index, $publication := $publications.paper }}
-	<li>
-		{{ if $publication.link }}
-		<a href="{{ $publication.link }}" class="publications"> {{ $publication.name }}, </a>
-		{{ else }}
-		<p class="publications">{{ $publication.name }},</p>
-		{{ end }}
-		{{ $publication.dest | markdownify }}.
-	
-		{{ if or ($publication.code_link) $publication.blog_link }}
-		<span class="code_blog">
-		{{ with $publication.code_link }}
-		[<a href="{{ $publication.code_link }}">code</a>]
-		{{ end }}
-	
-		{{ with $publication.blog_link }}
-		[<a href="{{ $publication.blog_link }}">slide</a>]
-		{{ end }}
-		</span>
-		{{ end }}
-	
-		<span class="collaborators">
-		{{ $publication.authors | markdownify }}
-		</span>
-	</li>
-	{{ end }}
-	</ul>
-	{{- end -}}
-
-	<!-- Journal -->
-	<h4>Domestic Journal</h4>
-	<details>
-		<summary>Please click here</summary>
-		{{- range $index, $publications := .Site.Params.ja_journal -}}
-		<div class="year">{{ $publications.year }}</div>
-		<ul>
-		{{ range $elem_index, $publication := $publications.paper }}
-		<li>
-			{{ if $publication.link }}
-			<a href="{{ $publication.link }}" class="publications"> {{ $publication.name }}, </a>
-			{{ else }}
-			<p class="publications">{{ $publication.name }},</p>
-			{{ end }}
-			{{ $publication.dest | markdownify }}.
-		
-			{{ if or ($publication.code_link) $publication.blog_link }}
-			<span class="code_blog">
-			{{ with $publication.code_link }}
-			[<a href="{{ $publication.code_link }}">code</a>]
-			{{ end }}
-		
-			{{ with $publication.blog_link }}
-			[<a href="{{ $publication.blog_link }}">slide</a>]
-			{{ end }}
-			</span>
-			{{ end }}
-		
-			<span class="collaborators">
-			{{ $publication.authors | markdownify }}
-			</span>
-		</li>
-		{{ end }}
-		</ul>
-		{{- end -}}
-	</details>
 
 	<!-- Domestic confernece -->
-	<h4>Domestic Conference</h4>
+	<h4>Domestic Journal and Conference (Japanese)</h4>
 	<details>
 		<summary>Please click here</summary>
 		{{- range $index, $publications := .Site.Params.domestic_conference -}}

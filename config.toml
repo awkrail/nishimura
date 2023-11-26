@@ -59,34 +59,9 @@ publishDir = "docs"
         start = "April 2015"
         end = "March 2019"
         note = ""
-
-[[params.ja_journal]]
-    [[params.ja_journal.paper]]
-        name = "Visual Recipe Flow: A Dataset for Learning Visual State Changes of Objects with Recipe Flows"
-        authors = "Keisuke Shirai, Atsushi Hashimoto, <u>Taichi Nishimura</u>, Hirotaka Kameko, Shuhei Kurita, and Shinsuke Mori"
-        dest = "Journal of Natural Language Processing (in Japanese)"
-        link = "https://www.jstage.jst.go.jp/article/jnlp/30/3/30_1042/_pdf/-char/ja"
-        code_link = ""
-        blog_link = ""
-    
-    [[params.ja_journal.paper]]
-        name = "BioVL2: An Egocentric Biochemical Video-and-Language Dataset"
-        authors = '<u>Taichi Nishimura</u>, Kojiro Sakoda, Atsushi Ushiku, Atsushi Hashimoto, Natsuko Okuda, Fumihito Ono, Hirotaka Kameko, and Shinsuke Mori <font color="red"> (Best Paper Award)</font>'
-        dest = "Journal of Natural Language Processing Vol 29 (4) (in Japanese)"
-        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura_nlp_journal_2022-3.pdf"
-        code_link = "https://github.com/awkrail/BioVL2"
-        blog_link = ""
-    
-    [[params.ja_journal.paper]]
-		name = "Recipe Generation from a Photo Sequence by Focusing on Verbalizing Important Terms"
-		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, and Shinsuke Mori'
-		dest  = "Journal of Natural Language Processing Vol. 27 (2) (in Japanese)"
-		link = "https://www.jstage.jst.go.jp/article/jnlp/27/2/27_257/_pdf/-char/en"
-		code_link = ""
-		blog_link = ""
-
-[[params.en_journal]]
-    [[params.en_journal.paper]]
+  
+[[params.international_conference]]
+    [[params.international_conference.paper]]
         name = "Recipe Generation from Unsegmented Cooking Videos"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
         dest = "arXiv:2209.10134 (Under review on ACM Transactions on Multimedia Computing, Communications, and Applications)"
@@ -94,23 +69,14 @@ publishDir = "docs"
         code_link = "https://github.com/awkrail/jesg"
         blog_link = ""
 
-    [[params.en_journal.paper]]
+    [[params.international_conference.paper]]
         name = "State-aware Video Procedural Captioning"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
-        dest = "Multimedia Tools and Applications"
+        dest = "Multimedia Tools and Applications Vol 82 (24)"
         link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura-MTAP2023.pdf"
         code_link = ""
         blog_link = ""
-  
-    [[params.en_journal.paper]]
-        name = "Structure-Aware Procedural Text Generation from an Image Sequence"
-        authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, Yoko Yamakata, and Shinsuke Mori"
-        dest = "IEEE Access Vol. 9"
-        link = "https://ieeexplore.ieee.org/document/9288722"
-        code_link = ""
-        blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
-  
-[[params.international_conference]]
+
     [[params.international_conference.paper]]
         name="Visual Recipe Flow: A Dataset for Learning Visual State Changes of Objects with Recipe Flows"
         authors="Keisuke Shirai, Atsushi Hashimoto, <u>Taichi Nishimura</u>, Hirotaka Kameko, Shuhei Kurita, Yoshitaka Ushiku and Shinsuke Mori"
@@ -175,6 +141,15 @@ publishDir = "docs"
         code_link = ""
 
     [[params.international_conference.paper]]
+        name = "Structure-Aware Procedural Text Generation from an Image Sequence"
+        authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, Yoko Yamakata, and Shinsuke Mori"
+        dest = "IEEE Access Vol. 9"
+        link = "https://ieeexplore.ieee.org/document/9288722"
+        code_link = ""
+        blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
+
+
+    [[params.international_conference.paper]]
 		name = "Visual Grounding Annotation of Recipe Flow Graph"
 		authors = '<u>Taichi Nishimura</u>, Suzushi Tomori, Hayato Hashimoto, Atsushi Hashimoto, Yoko Yamakata, Jun Harashima, Yoshitaka Ushiku and Shinsuke Mori'
 		dest  = "The 12th International Conference on Language Resources and Evaluation (LREC2020)"
@@ -205,6 +180,14 @@ publishDir = "docs"
         authors = "梶村 恵矢, <u>西村 太一</u>, 羽路 悠斗, 山本 航輝, 崔 泰毓, 亀甲 博貴, 森 信介"
         dest = "第31回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2023)"
         link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "調理動作後の物体の視覚的状態予測を目指したVisual Recipe Flowデータセットの構築と評価"
+        authors = "白井 圭佑, 橋本 敦史, <u>西村 太一</u>, 亀甲 博貴, 栗田 修平, 森 信介"
+        dest = "自然言語処理 Vol 30 (3)"
+        link = "https://www.jstage.jst.go.jp/article/jnlp/30/3/30_1042/_pdf/-char/ja"
+        code_link = ""
         blog_link = ""
 
     [[params.domestic_conference.paper]]
@@ -254,6 +237,14 @@ publishDir = "docs"
         authors = "森田 康介, <u>西村 太一</u>, 亀甲 博貴, 森 信介"
         dest = "言語処理学会第29回年次大会 (NLP2023)"
         link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/morita-NLP2023.pdf"
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "BioVL2データセット: 生化学分野における一人称視点の実験映像への言語アノテーション"
+        authors = '<u>西村 太一</u>, 迫田 航次郎, 牛久 敦, 橋本 敦史, 奥田 奈津子, 小野 富三人, 亀甲 博貴, 森 信介 <font color="red"> (論文賞)</font>'
+        dest = "自然言語処理 Vol 29 (4)"
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura_nlp_journal_2022-3.pdf"
+        code_link = "https://github.com/awkrail/BioVL2"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
@@ -358,6 +349,14 @@ publishDir = "docs"
 		authors = '<u>西村 太一</u>, 友利 涼, 橋本 隼人, 橋本 敦史, 山肩 洋子, 原島 純, 牛久 祥孝, 森 信介'
 		dest  = "言語処理学会第26回年次大会 (NLP2020)"
 		link = "https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/A1-2.pdf"
+		code_link = ""
+		blog_link = ""
+
+    [[params.domestic_conference.paper]]
+		name = "重要語に着目した写真列からのレシピの自動生成"
+		authors = '<u>西村 太一</u>, 橋本 敦史, 森 信介'
+		dest  = "自然言語処理 Vol. 27 (2)"
+		link = "https://www.jstage.jst.go.jp/article/jnlp/27/2/27_257/_pdf/-char/en"
 		code_link = ""
 		blog_link = ""
 
