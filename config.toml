@@ -60,8 +60,16 @@ publishDir = "docs"
         end = "March 2019"
         note = ""
   
-[[params.international_conference]]
-    [[params.international_conference.paper]]
+[[params.preprint]]
+    [[params.preprint.paper]]
+        name = "Exo2EgoDVC: Dense Video Captioning of Egocentric Procedural Activities Using Web Instructional Videos"
+        authors = "Takehiko Ohkawa, Takuma Yagi, <u>Taichi Nishimura</u>, Ryosuke Furuta, Atsushi Hashimoto, Yoshitaka Ushiku, Yoichi Sato"
+        dest = "arXiv:2311.16444"
+        link = "https://arxiv.org/abs/2311.16444"
+        code_link = ""
+        blog_link = ""
+
+    [[params.preprint.paper]]
         name = "Recipe Generation from Unsegmented Cooking Videos"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
         dest = "arXiv:2209.10134 (Under review on ACM Transactions on Multimedia Computing, Communications, and Applications)"
@@ -69,6 +77,7 @@ publishDir = "docs"
         code_link = "https://github.com/awkrail/jesg"
         blog_link = ""
 
+[[params.international_conference]]
     [[params.international_conference.paper]]
         name = "State-aware Video Procedural Captioning"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
