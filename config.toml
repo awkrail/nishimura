@@ -188,7 +188,7 @@ publishDir = "docs"
         name = "一人称視点動画を用いたマルチモーダル作業支援システムの提案"
         authors = "梶村 恵矢, <u>西村 太一</u>, 羽路 悠斗, 山本 航輝, 崔 泰毓, 亀甲 博貴, 森 信介"
         dest = "第31回インタラクティブシステムとソフトウェアに関するワークショップ (WISS2023)"
-        link = ""
+        link = "https://www.wiss.org/WISS2023Proceedings/data/3-A01.pdf"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
