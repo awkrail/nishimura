@@ -59,6 +59,14 @@ publishDir = "docs"
         start = "April 2015"
         end = "March 2019"
         note = ""
+
+[[params.talk]]
+    [[params.talk.content]]
+        name = "作業動画と手順書を対象としたマルチモーダル理解"
+        dest = "Vision and Languageの最前線, 第26回情報論的学習理論ワークショップ (IBIS2023)"
+        link = "https://speakerdeck.com/awkrail/zuo-ye-dong-hua-toshou-shun-shu-wodui-xiang-tositamarutimodaruli-jie"
+        code_link = ""
+        blog_link = ""
   
 [[params.preprint]]
     [[params.preprint.paper]]
