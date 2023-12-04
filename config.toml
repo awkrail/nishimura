@@ -16,13 +16,13 @@ publishDir = "docs"
 
 [[params.affilation]]
     name = "LY Corporation"
-    position = "Researcher"
+    position = "Computer vision researcher"
     contact = "taichitary@gmail.com"
 
 [[params.work]]
     [[params.work.career]]
         name = "LY Corporation"
-        position = "Researcher"
+        position = "Computer vision researcher"
         start = "October 2023"
         end = "Present"
     
