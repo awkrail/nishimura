@@ -13,6 +13,7 @@ publishDir = "docs"
 
 [params]
     subtitle= "Ph.D. in Informatics"
+    instroduction="I am a computer vision and multimodal researcher at LY Corporation. I am expertise in multimodal video processing, including video captioning, audio-video learning, and cross-modal video retrieval."
 
 [[params.affilation]]
     name = "LY Corporation"
@@ -67,8 +68,23 @@ publishDir = "docs"
         link = "https://speakerdeck.com/awkrail/zuo-ye-dong-hua-toshou-shun-shu-wodui-xiang-tositamarutimodaruli-jie"
         code_link = ""
         blog_link = ""
+
+    [[params.talk.content]]
+        name = "オムロン系、料理動画→レシピ作成 AIが自動で、音声・字幕なしでも"
+        dest = "日本経済新聞"
+        link = "https://www.nikkei.com/article/DGKKZO65214050X11C22A0TEB000/"
+        code_link = ""
+        blog_link = ""
   
 [[params.preprint]]
+    [[params.preprint.paper]]
+        name = "On the Audio Hallucinations in Large Audio-Video Language Models"
+        authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
+        dest = "arXiv:2401.09774"
+        link = "https://arxiv.org/abs/2401.09774"
+        code_link = ""
+        blog_link = ""
+
     [[params.preprint.paper]]
         name = "Large-scale Vision-Language Models Learn Super Images for Efficient and High-Performance Partially Relevant Video Retrieval"
         authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
@@ -200,6 +216,27 @@ publishDir = "docs"
 
 
 [[params.domestic_conference]]
+    [[params.domestic_conference.paper]]
+        name = "一人称視点に基づくテキスト駆動型アフォーダンス及び軌跡の学習"
+        authors = "吉田 智哉, 栗田 修平, <u>西村 太一</u>, 森 信介"
+        dest = "言語処理学会第30回年次大会 (NLP2024)"
+        link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "EgoOops!データセット: 手順書に従う作業の一人称映像への作業誤りアノテーション"
+        authors = "羽路 悠斗, <u>西村 太一</u>, 山本 航輝, 梶村 恵矢, 崔 泰毓, 亀甲 博貴, 森 信介"
+        dest = "言語処理学会第30回年次大会 (NLP2024)"
+        link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "一人称視点動画を用いたマルチモーダル作業支援システム"
+        authors = "梶村 恵矢, <u>西村 太一</u>, 羽路 悠斗, 山本 航輝, 崔 泰毓, 亀甲 博貴, 森 信介"
+        dest = "言語処理学会第30回年次大会 (NLP2024)"
+        link = ""
+        blog_link = ""
+
     [[params.domestic_conference.paper]]
         name = "一人称視点動画を用いたマルチモーダル作業支援システムの提案"
         authors = "梶村 恵矢, <u>西村 太一</u>, 羽路 悠斗, 山本 航輝, 崔 泰毓, 亀甲 博貴, 森 信介"
@@ -401,7 +438,7 @@ publishDir = "docs"
 		code_link = ""
 		blog_link = ""
 
-  [[params.domestic_conference.paper]]
+    [[params.domestic_conference.paper]]
 		name = "写真付き手順書生成のための実施映像からのフレーム選択"
 		authors = '<u>西村 太一</u>, 橋本 敦史, 山肩 洋子, 森 信介'
 		dest  = "第11回データ工学と情報マネジメントに関するフォーラム (DEIM2019)"
@@ -409,7 +446,7 @@ publishDir = "docs"
 		code_link = ""
 		blog_link = ""
 
-  [[params.domestic_conference.paper]]
+    [[params.domestic_conference.paper]]
 		name = "テキスタイルセンサを用いた腹巻型笑いログシステムによる笑い検出の検討"
 		authors = '島﨑 郁花, <u>西村 太一</u>, 上岡 玲子'
 		dest  = "第22回日本バーチャルリアリティ学会 (VRSJ2017)"
