@@ -101,15 +101,15 @@ publishDir = "docs"
         code_link = ""
         blog_link = ""
 
-    [[params.preprint.paper]]
+[[params.international_conference]]
+    [[params.international_conference.paper]]
         name = "Recipe Generation from Unsegmented Cooking Videos"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
-        dest = "arXiv:2209.10134 (Under review on ACM Transactions on Multimedia Computing, Communications, and Applications)"
+        dest = "ACM Transactions on Multimedia Computing, Communications, and Applications (to appear)"
         link = "https://arxiv.org/abs/2209.10134"
         code_link = "https://github.com/awkrail/jesg"
         blog_link = ""
 
-[[params.international_conference]]
     [[params.international_conference.paper]]
         name = "State-aware Video Procedural Captioning"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
