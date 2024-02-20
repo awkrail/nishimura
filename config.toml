@@ -103,9 +103,17 @@ publishDir = "docs"
 
 [[params.international_conference]]
     [[params.international_conference.paper]]
+        name = "Automatic Construction of a Large-Scale Corpus for Geoparsing Using Wikipedia Hyperlinks"
+        authors = "Keyaki Ohno, Hirotaka Kameko, Keisuke Shirai, <u>Taichi Nishimura</u> and Shinsuke Mori"
+        dest = "The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING2024) (to appear)"
+        link = ""
+        code_link = ""
+        blog_link = ""
+
+    [[params.international_conference.paper]]
         name = "Recipe Generation from Unsegmented Cooking Videos"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
-        dest = "ACM Transactions on Multimedia Computing, Communications, and Applications (to appear)"
+        dest = "ACM Transactions on Multimedia Computing, Communications, and Applications (ACM TOMM) (to appear)"
         link = "https://arxiv.org/abs/2209.10134"
         code_link = "https://github.com/awkrail/jesg"
         blog_link = ""
@@ -113,7 +121,7 @@ publishDir = "docs"
     [[params.international_conference.paper]]
         name = "State-aware Video Procedural Captioning"
         authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
-        dest = "Multimedia Tools and Applications Vol 82 (24)"
+        dest = "Multimedia Tools and Applications (MTAP) Vol 82 (24)"
         link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura-MTAP2023.pdf"
         code_link = ""
         blog_link = ""
