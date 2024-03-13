@@ -86,7 +86,7 @@ publishDir = "docs"
         blog_link = ""
 
     [[params.preprint.paper]]
-        name = "Large-scale Vision-Language Models Learn Super Images for Efficient and High-Performance Partially Relevant Video Retrieval"
+        name = "Vision-Language Models Learn Super Images for Efficient Partially Relevant Video Retrieval"
         authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
         dest = "arXiv:2312.00414"
         link = "https://arxiv.org/abs/2312.00414"
