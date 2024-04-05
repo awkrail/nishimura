@@ -78,6 +78,14 @@ publishDir = "docs"
   
 [[params.preprint]]
     [[params.preprint.paper]]
+        name = "BioVL-QR: Egocentric Biochemical Video-and-Language Dataset Using Micro QR Codes"
+        authors = "<u>Taichi Nishimura</u>, Koki Yamamoto, Yuto Haneji, Keiya Kajimura, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, Hirotaka Kameko, Shinsuke Mori"
+        dest = "arXiv:2404.03161"
+        link = "https://arxiv.org/abs/2404.03161"
+        code_link = ""
+        blog_link = ""
+
+    [[params.preprint.paper]]
         name = "Text-driven Affordance Learning from Egocentric Vision"
         authors = "Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori"
         dest = "arXiv:2404.02523"
