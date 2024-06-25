@@ -111,6 +111,15 @@ publishDir = "docs"
 
 [[params.international_conference]]
     [[params.international_conference.paper]]
+        name = "Training Strategy of Massive Text-to-Audio Models and GPT-based Query Augmentation"
+        authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
+        dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events: Task 8 (DCASE24)"
+        link = ""
+        code_link = ""
+        blog_link = ""
+
+
+    [[params.international_conference.paper]]
         name = "Exo2EgoDVC: Dense Video Captioning of Egocentric Procedural Activities Using Web Instructional Videos"
         authors = "Takehiko Ohkawa, Takuma Yagi, <u>Taichi Nishimura</u>, Ryosuke Furuta, Atsushi Hashimoto, Yoshitaka Ushiku, Yoichi Sato"
         dest = "The 1st Workshop on Learning from Procedural Videos and Language in conjunction with CVPR2024 (LPVL24)"
@@ -240,6 +249,27 @@ publishDir = "docs"
 
 
 [[params.domestic_conference]]
+    [[params.domestic_conference.paper]]
+        name = "Lighthouse: 再現可能で使いやすい動画区間検索のライブラリ"
+        authors = "<u>西村 太一</u>"
+        dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
+        link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "音を発生させる物体を考慮した視聴覚表現学習"
+        authors = "仲田 勝太, <u>西村 太一</u>, 宗像 北斗, 小松 達也, 近藤 雅芳"
+        dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
+        link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "動画生成における文字崩れの評価のためのデータセットと評価指標の提案"
+        authors = "青嶋 雄大, <u>西村 太一</u>, 近藤 雅芳"
+        dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
+        link = ""
+        blog_link = ""
+
     [[params.domestic_conference.paper]]
         name = "一人称視点に基づくテキスト駆動型アフォーダンス及び軌跡の学習"
         authors = "吉田 智哉, 栗田 修平, <u>西村 太一</u>, 森 信介"
