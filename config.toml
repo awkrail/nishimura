@@ -111,15 +111,6 @@ publishDir = "docs"
 
 [[params.international_conference]]
     [[params.international_conference.paper]]
-        name = "Training Strategy of Massive Text-to-Audio Models and GPT-based Query Augmentation"
-        authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
-        dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events: Task 8 (DCASE24)"
-        link = ""
-        code_link = ""
-        blog_link = ""
-
-
-    [[params.international_conference.paper]]
         name = "Exo2EgoDVC: Dense Video Captioning of Egocentric Procedural Activities Using Web Instructional Videos"
         authors = "Takehiko Ohkawa, Takuma Yagi, <u>Taichi Nishimura</u>, Ryosuke Furuta, Atsushi Hashimoto, Yoshitaka Ushiku, Yoichi Sato"
         dest = "The 1st Workshop on Learning from Procedural Videos and Language in conjunction with CVPR2024 (LPVL24)"
