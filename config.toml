@@ -78,6 +78,14 @@ publishDir = "docs"
   
 [[params.preprint]]
     [[params.preprint.paper]]
+        name = "Lighthouse: A User-Friendly Library for Reproducible Video Moment Retrieval and Highlight Detection"
+        authors = "<u>Taichi Nishimura</u>, Shota Nakada, Hokuto Munakata, Tatsuya Komatsu"
+        dest = "arXiv:2408.02901"
+        link = "http://arxiv.org/abs/2408.02901"
+        code_link = ""
+        blog_link = ""
+
+    [[params.preprint.paper]]
         name = "BioVL-QR: Egocentric Biochemical Video-and-Language Dataset Using Micro QR Codes"
         authors = "<u>Taichi Nishimura</u>, Koki Yamamoto, Yuto Haneji, Keiya Kajimura, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, Hirotaka Kameko, Shinsuke Mori"
         dest = "arXiv:2404.03161"
@@ -111,7 +119,7 @@ publishDir = "docs"
 
 [[params.international_conference]]
     [[params.international_conference.paper]]
-        name = "TRAINING STRATEGY OF MASSIVE TEXT-TO-AUDIO MODELS AND GPT-BASED QUERY-AUGMENTATION"
+        name = "Training Strategy of Massive Text-to-audio Models and GPT-based Query-Augmentation"
         authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
         dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE24) Challenge Task 8: Language-Based Audio Retrieval"
         link = "https://dcase.community/documents/challenge2024/technical_reports/DCASE2024_Munakata_45_t8.pdf"
