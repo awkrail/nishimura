@@ -75,6 +75,13 @@ publishDir = "docs"
         link = "https://www.nikkei.com/article/DGKKZO65214050X11C22A0TEB000/"
         code_link = ""
         blog_link = ""
+
+[[params.softwares]]
+    [[params.softwares.software]]
+        name = "line/lighthouse"
+        link = "https://github.com/line/lighthouse"
+        description = "A user-friendly library for reproducible video moment retrieval and highlight detection (MR-HD). It supports six models, three features, and five datasets. In addition, we prepare an inference-only API and demo for developers to use MR-HD methods easily."
+
   
 [[params.preprint]]
     [[params.preprint.paper]]

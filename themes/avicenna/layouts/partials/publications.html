@@ -1,4 +1,36 @@
 <div class="introduction">
+	<h3>Softwares</h3>
+	<!-- International Conference and Workshop -->
+	{{- range $index, $software := .Site.Params.softwares -}}
+	<ul>
+		{{ range $elem_index, $soft_data := $software.software }}
+		<li>
+		{{ if $soft_data.link }}
+		<a href="{{ $soft_data.link }}" class="publications"> {{ $soft_data.name }}, </a>
+		{{ else }}
+		<p class="publications">{{ $soft_data.name }},</p>
+		{{ end }}
+		{{ $soft_data.dest | markdownify }}
+		{{ $soft_data.description }}
+	
+		{{ if or ($soft_data.code_link) $soft_data.blog_link }}
+		<span class="code_blog">
+			{{ with $soft_data.code_link }}
+			[<a href="{{ $soft_data.code_link }}">code</a>]
+			{{ end }}
+	
+			{{ with $soft_data.blog_link }}
+			[<a href="{{ $soft_data.blog_link }}">slide</a>]
+			{{ end }}
+		</span>
+		{{ end }}
+		</li>
+		{{ end }}
+	</ul>
+	{{- end -}}
+</div>
+
+<div class="introduction">
 	<h3>Publication</h3>
 	<!-- International Conference and Workshop -->
 	<h4>International Journal, Conference, and Workshop</h4>
