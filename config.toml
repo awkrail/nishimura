@@ -13,17 +13,17 @@ publishDir = "docs"
 
 [params]
     subtitle= "Ph.D. in Informatics"
-    instroduction="I am a computer vision and multimodal researcher at LY Corporation. I am expertise in multimodal video processing, including video captioning, audio-video learning, and cross-modal video retrieval."
+    instroduction="I am a computer vision and multimodal research engineer at LY Corporation. I am expertise in multimodal video processing, including video captioning, audio-video learning, and cross-modal video retrieval."
 
 [[params.affilation]]
     name = "LY Corporation"
-    position = "Computer vision researcher"
+    position = "Computer vision research engineer"
     contact = "taichitary@gmail.com"
 
 [[params.work]]
     [[params.work.career]]
         name = "LY Corporation"
-        position = "Computer vision researcher"
+        position = "Computer vision research engineer"
         start = "October 2023"
         end = "Present"
     
