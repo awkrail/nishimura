@@ -116,19 +116,52 @@ publishDir = "docs"
         code_link = ""
         blog_link = ""
 
-    [[params.preprint.paper]]
+[[params.journal]]
+    [[params.journal.paper]]
         name = "Vision-Language Models Learn Super Images for Efficient Partially Relevant Video Retrieval"
         authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
-        dest = "arXiv:2312.00414"
+        dest = "ACM Transactions on Multimedia Computing, Communications, and Applications (ACM TOMM) (Major revision)"
         link = "https://arxiv.org/abs/2312.00414"
         code_link = ""
         blog_link = ""
 
+    [[params.journal.paper]]
+        name = "Recipe Generation from Unsegmented Cooking Videos"
+        authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
+        dest = "ACM Transactions on Multimedia Computing, Communications, and Applications (ACM TOMM)"
+        link = "https://arxiv.org/abs/2209.10134"
+        code_link = "https://github.com/awkrail/jesg"
+        blog_link = ""
+
+    [[params.journal.paper]]
+        name = "State-aware Video Procedural Captioning"
+        authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
+        dest = "Multimedia Tools and Applications (MTAP) Vol 82 (24)"
+        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura-MTAP2023.pdf"
+        code_link = ""
+        blog_link = ""
+
+    [[params.journal.paper]]
+        name = "Structure-Aware Procedural Text Generation from an Image Sequence"
+        authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, Yoko Yamakata, and Shinsuke Mori"
+        dest = "IEEE Access Vol. 9"
+        link = "https://ieeexplore.ieee.org/document/9288722"
+        code_link = ""
+        blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
+
 [[params.international_conference]]
+    [[params.international_conference.paper]]
+        name = "Pre-trained models, Datasets, Data Augmentation, and Inference Time Augmentation for Language-based Audio Retrieval"
+        authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
+        dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events Workshop (DCASE24 Workshop)"
+        link = "https://dcase.community/documents/challenge2024/technical_reports/DCASE2024_Munakata_45_t8.pdf"
+        code_link = ""
+        blog_link = ""
+
     [[params.international_conference.paper]]
         name = "Training Strategy of Massive Text-to-audio Models and GPT-based Query-Augmentation"
         authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
-        dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE24) Challenge Task 8: Language-Based Audio Retrieval"
+        dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events Challenge Task 8: Language-Based Audio Retrieval (DCASE24 Challenge)"
         link = "https://dcase.community/documents/challenge2024/technical_reports/DCASE2024_Munakata_45_t8.pdf"
         code_link = ""
         blog_link = ""
@@ -146,22 +179,6 @@ publishDir = "docs"
         authors = "Keyaki Ohno, Hirotaka Kameko, Keisuke Shirai, <u>Taichi Nishimura</u> and Shinsuke Mori"
         dest = "The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING2024)"
         link = "https://arxiv.org/abs/2403.16483"
-        code_link = ""
-        blog_link = ""
-
-    [[params.international_conference.paper]]
-        name = "Recipe Generation from Unsegmented Cooking Videos"
-        authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
-        dest = "ACM Transactions on Multimedia Computing, Communications, and Applications (ACM TOMM)"
-        link = "https://arxiv.org/abs/2209.10134"
-        code_link = "https://github.com/awkrail/jesg"
-        blog_link = ""
-
-    [[params.international_conference.paper]]
-        name = "State-aware Video Procedural Captioning"
-        authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, and Shinsuke Mori"
-        dest = "Multimedia Tools and Applications (MTAP) Vol 82 (24)"
-        link = "http://www.lsta.media.kyoto-u.ac.jp/mori/research/public/nishimura-MTAP2023.pdf"
         code_link = ""
         blog_link = ""
 
@@ -227,15 +244,6 @@ publishDir = "docs"
         dest = "The 4th Workshop on Closing the Loop Between Vision and Language in conjunction with ICCV2021 (CLVL2021)"
         link = "https://openaccess.thecvf.com/content/ICCV2021W/CLVL/papers/Nishimura_Egocentric_Biochemical_Video-and-Language_Dataset_ICCVW_2021_paper.pdf"
         code_link = ""
-
-    [[params.international_conference.paper]]
-        name = "Structure-Aware Procedural Text Generation from an Image Sequence"
-        authors = "<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoshitaka Ushiku, Hirotaka Kameko, Yoko Yamakata, and Shinsuke Mori"
-        dest = "IEEE Access Vol. 9"
-        link = "https://ieeexplore.ieee.org/document/9288722"
-        code_link = ""
-        blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
-
 
     [[params.international_conference.paper]]
 		name = "Visual Grounding Annotation of Recipe Flow Graph"
