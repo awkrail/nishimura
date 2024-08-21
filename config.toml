@@ -154,7 +154,7 @@ publishDir = "docs"
         name = "Pre-trained models, Datasets, Data Augmentation, and Inference Time Augmentation for Language-based Audio Retrieval"
         authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
         dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events Workshop (DCASE24 Workshop)"
-        link = "https://dcase.community/documents/challenge2024/technical_reports/DCASE2024_Munakata_45_t8.pdf"
+        link = ""
         code_link = ""
         blog_link = ""
 
