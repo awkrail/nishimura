@@ -87,8 +87,8 @@ publishDir = "docs"
     [[params.preprint.paper]]
         name = "Language-based Audio Moment Retrieval"
         authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
-        dest = "arXiv"
-        link = ""
+        dest = "arXiv:2409.15672"
+        link = "https://arxiv.org/abs/2409.15672"
         code_link = "https://github.com/line/lighthouse"
         blog_link = "https://h-munakata.github.io/Language-based-Audio-Moment-Retrieval/"
 
