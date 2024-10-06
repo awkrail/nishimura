@@ -101,14 +101,6 @@ publishDir = "docs"
         blog_link = ""
 
     [[params.preprint.paper]]
-        name = "Lighthouse: A User-Friendly Library for Reproducible Video Moment Retrieval and Highlight Detection"
-        authors = "<u>Taichi Nishimura</u>, Shota Nakada, Hokuto Munakata, Tatsuya Komatsu"
-        dest = "arXiv:2408.02901"
-        link = "http://arxiv.org/abs/2408.02901"
-        code_link = "https://github.com/line/lighthouse"
-        blog_link = ""
-
-    [[params.preprint.paper]]
         name = "BioVL-QR: Egocentric Biochemical Video-and-Language Dataset Using Micro QR Codes"
         authors = "<u>Taichi Nishimura</u>, Koki Yamamoto, Yuto Haneji, Keiya Kajimura, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, Hirotaka Kameko, Shinsuke Mori"
         dest = "arXiv:2404.03161"
@@ -166,6 +158,14 @@ publishDir = "docs"
         blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
 
 [[params.international_conference]]
+    [[params.international_conference.paper]]
+        name = "Lighthouse: A User-Friendly Library for Reproducible Video Moment Retrieval and Highlight Detection"
+        authors = "<u>Taichi Nishimura</u>, Shota Nakada, Hokuto Munakata, Tatsuya Komatsu"
+        dest = "The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP24) - System Demonstration Track"
+        link = "http://arxiv.org/abs/2408.02901"
+        code_link = "https://github.com/line/lighthouse"
+        blog_link = ""
+
     [[params.international_conference.paper]]
         name = "Pre-trained models, Datasets, Data Augmentation, and Inference Time Augmentation for Language-based Audio Retrieval"
         authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
