@@ -85,6 +85,14 @@ publishDir = "docs"
   
 [[params.preprint]]
     [[params.preprint.paper]]
+        name = "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts"
+        authors = "Yuto Haneji, <u>Taichi Nishimura</u>, Hirotaka Kameko, Keisuke Shirai, Tomoya Yoshida, Keiya Kajimura, Koki Yamamoto, Taiyu Cui, Tomohiro Nishimoto, Shinsuke Mori"
+        dest = "arXiv:2410.05343"
+        link = "https://arxiv.org/abs/2410.05343"
+        code_link = "https://github.com/Y-Haneji/EgoOops-annotations/"
+        blog_link = "https://y-haneji.github.io/EgoOops-project-page/"
+
+    [[params.preprint.paper]]
         name = "Language-based Audio Moment Retrieval"
         authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
         dest = "arXiv:2409.15672"
