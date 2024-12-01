@@ -13,11 +13,10 @@ publishDir = "docs"
 
 [params]
     subtitle= "Ph.D. in Informatics"
-    instroduction="I am a computer vision and multimodal research engineer at LY Corporation. I am expertise in multimodal video processing, including video captioning, audio-video learning, and cross-modal video retrieval."
 
 [[params.affilation]]
-    name = "LY Corporation"
-    position = "Computer vision research engineer"
+    name = "TBD"
+    position = "TBD"
     contact = "taichitary@gmail.com"
 
 [[params.work]]
@@ -25,17 +24,17 @@ publishDir = "docs"
         name = "LY Corporation"
         position = "Computer vision research engineer"
         start = "October 2023"
-        end = "Present"
+        end = "December 2024"
     
     [[params.work.career]]
         name = "Apple Japan"
-        position = "Software Engineer Internship"
+        position = "Software engineer internship"
         start = "January 2022"
         end = "May 2022"
 
     [[params.work.career]]
         name = "Preferred Networks"
-        position = "Project Engineer Internship"
+        position = "Project engineer internship"
         start = "August 2021"
         end = "March 2022"
 
@@ -136,7 +135,7 @@ publishDir = "docs"
     [[params.journal.paper]]
         name = "Vision-Language Models Learn Super Images for Efficient Partially Relevant Video Retrieval"
         authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
-        dest = "ACM Transactions on Multimedia Computing, Communications, and Applications (ACM TOMM) (Major revision)"
+        dest = "ACM Transactions on Multimedia Computing, Communications, and Applications (ACM TOMM)"
         link = "https://arxiv.org/abs/2312.00414"
         code_link = ""
         blog_link = ""
@@ -166,6 +165,14 @@ publishDir = "docs"
         blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
 
 [[params.international_conference]]
+    [[params.international_conference.paper]]
+        name = "Exo2EgoDVC: Dense Video Captioning of Egocentric Procedural Activities Using Web Instructional Videos"
+        authors = "Takehiko Ohkawa, Takuma Yagi, <u>Taichi Nishimura</u>, Ryosuke Furuta, Atsushi Hashimoto, Yoshitaka Ushiku, Yoichi Sato"
+        dest = "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV25)"
+        link = "https://arxiv.org/abs/2311.16444"
+        code_link = ""
+        blog_link = ""
+
     [[params.international_conference.paper]]
         name = "Lighthouse: A User-Friendly Library for Reproducible Video Moment Retrieval and Highlight Detection"
         authors = "<u>Taichi Nishimura</u>, Shota Nakada, Hokuto Munakata, Tatsuya Komatsu"
@@ -295,6 +302,20 @@ publishDir = "docs"
 
 
 [[params.domestic_conference]]
+    [[params.domestic_conference.paper]]
+        name = "音響特徴量を活用した動画内区間検索及びハイライト検出"
+        authors = "今村 剛大, <u>西村 太一</u>, 小松 達也, 戸田 智基"
+        dest = "第152回 日本音響学会 (ASJ2024)"
+        link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "自然言語による音響区間検索"
+        authors = "宗像 北斗, <u>西村 太一</u>, 仲田 勝太, 小松 達也"
+        dest = "第152回 日本音響学会 (ASJ2024)"
+        link = ""
+        blog_link = ""
+
     [[params.domestic_conference.paper]]
         name = "Lighthouse: 再現可能で使いやすい動画区間検索のライブラリ"
         authors = "<u>西村 太一</u>"
