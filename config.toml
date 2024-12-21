@@ -92,22 +92,6 @@ publishDir = "docs"
         blog_link = "https://y-haneji.github.io/EgoOops-project-page/"
 
     [[params.preprint.paper]]
-        name = "Language-based Audio Moment Retrieval"
-        authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
-        dest = "arXiv:2409.15672"
-        link = "https://arxiv.org/abs/2409.15672"
-        code_link = "https://github.com/line/lighthouse"
-        blog_link = "https://h-munakata.github.io/Language-based-Audio-Moment-Retrieval/"
-
-    [[params.preprint.paper]]
-        name = "DETECLAP: Enhancing Audio-Visual Representation Learning with Object Information"
-        authors = "Shota Nakada, <u>Taichi Nishimura</u>, Hokuto Munakata, Tatsuya Komatsu"
-        dest = "arXiv:2409.11729"
-        link = "https://arxiv.org/abs/2409.11729"
-        code_link = ""
-        blog_link = ""
-
-    [[params.preprint.paper]]
         name = "BioVL-QR: Egocentric Biochemical Video-and-Language Dataset Using Micro QR Codes"
         authors = "<u>Taichi Nishimura</u>, Koki Yamamoto, Yuto Haneji, Keiya Kajimura, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, Hirotaka Kameko, Shinsuke Mori"
         dest = "arXiv:2404.03161"
@@ -165,6 +149,22 @@ publishDir = "docs"
         blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
 
 [[params.international_conference]]
+    [[params.international_conference.paper]]
+        name = "Language-based Audio Moment Retrieval"
+        authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
+        dest = "IEEE International Conference on Acoustic, Speech, and Signal Processing (ICASSP25)"
+        link = "https://arxiv.org/abs/2409.15672"
+        code_link = "https://github.com/line/lighthouse"
+        blog_link = "https://h-munakata.github.io/Language-based-Audio-Moment-Retrieval/"
+
+    [[params.international_conference.paper]]
+        name = "DETECLAP: Enhancing Audio-Visual Representation Learning with Object Information"
+        authors = "Shota Nakada, <u>Taichi Nishimura</u>, Hokuto Munakata, Tatsuya Komatsu"
+        dest = "IEEE International Conference on Acoustic, Speech, and Signal Processing (ICASSP25)"
+        link = "https://arxiv.org/abs/2409.11729"
+        code_link = ""
+        blog_link = ""
+
     [[params.international_conference.paper]]
         name = "Exo2EgoDVC: Dense Video Captioning of Egocentric Procedural Activities Using Web Instructional Videos"
         authors = "Takehiko Ohkawa, Takuma Yagi, <u>Taichi Nishimura</u>, Ryosuke Furuta, Atsushi Hashimoto, Yoshitaka Ushiku, Yoichi Sato"
