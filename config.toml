@@ -15,28 +15,22 @@ publishDir = "docs"
     subtitle= "Ph.D. in Informatics"
 
 [[params.affilation]]
-    name = "TBD"
-    position = "TBD"
+    name = "PlayStation"
+    position = "Senior Machine Learning Engineer"
     contact = "taichitary@gmail.com"
 
 [[params.work]]
+    [[params.work.career]]
+        name = "Sony Interactive Entertainment"
+        position = "Senior Machine Learning Engineer"
+        start = "Feburary 2025"
+        end = "Present"
+
     [[params.work.career]]
         name = "LY Corporation"
         position = "Computer vision research engineer"
         start = "October 2023"
         end = "December 2024"
-    
-    [[params.work.career]]
-        name = "Apple Japan"
-        position = "Software engineer internship"
-        start = "January 2022"
-        end = "May 2022"
-
-    [[params.work.career]]
-        name = "Preferred Networks"
-        position = "Project engineer internship"
-        start = "August 2021"
-        end = "March 2022"
 
 [[params.education]]
     [[params.education.career]]
