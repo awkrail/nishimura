@@ -21,7 +21,7 @@ publishDir = "docs"
 
 [[params.work]]
     [[params.work.career]]
-        name = "Sony Interactive Entertainment"
+        name = "Sony Interactive Entertainment (PlayStation)"
         position = "Senior Machine Learning Engineer"
         start = "Feburary 2025"
         end = "Present"
