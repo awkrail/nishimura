@@ -149,6 +149,14 @@ publishDir = "docs"
 
 [[params.international_conference]]
     [[params.international_conference.paper]]
+        name = "Generating 6DoF Object Manipulation Trajectories from Action Description in Egocentric Vision"
+        authors = "Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori"
+        dest = "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR25)"
+        link = ""
+        code_link = ""
+        blog_link = ""
+
+    [[params.international_conference.paper]]
         name = "Language-based Audio Moment Retrieval"
         authors = "Hokuto Munakata, <u>Taichi Nishimura</u>, Shota Nakada, Tatsuya Komatsu"
         dest = "IEEE International Conference on Acoustic, Speech, and Signal Processing (ICASSP25)"
@@ -276,60 +284,60 @@ publishDir = "docs"
         code_link = ""
 
     [[params.international_conference.paper]]
-		name = "Visual Grounding Annotation of Recipe Flow Graph"
-		authors = '<u>Taichi Nishimura</u>, Suzushi Tomori, Hayato Hashimoto, Atsushi Hashimoto, Yoko Yamakata, Jun Harashima, Yoshitaka Ushiku and Shinsuke Mori'
-		dest  = "The 12th International Conference on Language Resources and Evaluation (LREC2020)"
-		link = "https://www.aclweb.org/anthology/2020.lrec-1.527.pdf"
-		code_link = ""
-		blog_link = ""
+        name = "Visual Grounding Annotation of Recipe Flow Graph"
+        authors = '<u>Taichi Nishimura</u>, Suzushi Tomori, Hayato Hashimoto, Atsushi Hashimoto, Yoko Yamakata, Jun Harashima, Yoshitaka Ushiku and Shinsuke Mori'
+        dest  = "The 12th International Conference on Language Resources and Evaluation (LREC2020)"
+        link = "https://www.aclweb.org/anthology/2020.lrec-1.527.pdf"
+        code_link = ""
+        blog_link = ""
 
     [[params.international_conference.paper]]
-		name = "Procedural Text Generation from a Photo Sequence"
-		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, and Shinsuke Mori'
-		dest  = "The 12th International Conference on Natural Language Generation (INLG2019)"
-		link = "https://aclanthology.org/W19-8650/"
-		code_link = ""
-		blog_link = "https://drive.google.com/file/d/10z_cFHy3O_zqjRF7fAAKjW7MN3AREbqH/view?usp=sharing"
+        name = "Procedural Text Generation from a Photo Sequence"
+        authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, and Shinsuke Mori'
+        dest  = "The 12th International Conference on Natural Language Generation (INLG2019)"
+        link = "https://aclanthology.org/W19-8650/"
+        code_link = ""
+        blog_link = "https://drive.google.com/file/d/10z_cFHy3O_zqjRF7fAAKjW7MN3AREbqH/view?usp=sharing"
 
     [[params.international_conference.paper]]
-		name = "Frame Selection for Producing Recipe with Pictures from an Execution Video of a Recipe"
-		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoko Yamakata, and Shinsuke Mori <font color="red"> (Best Paper Award)</font>'
-		dest  = "The 11th Workshop on Multimedia for Cooking and Eating Activities in conjunction with ICMR2019 (CEA2019)"
-		link = "https://dl.acm.org/doi/10.1145/3326458.3326928"
-		code_link = ""
-		blog_link = "https://speakerdeck.com/awkrail/frame-selection-for-producing-recipe-with-pictures-from-an-execution-video-of-a-recipe"
+        name = "Frame Selection for Producing Recipe with Pictures from an Execution Video of a Recipe"
+        authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoko Yamakata, and Shinsuke Mori <font color="red"> (Best Paper Award)</font>'
+        dest  = "The 11th Workshop on Multimedia for Cooking and Eating Activities in conjunction with ICMR2019 (CEA2019)"
+        link = "https://dl.acm.org/doi/10.1145/3326458.3326928"
+        code_link = ""
+        blog_link = "https://speakerdeck.com/awkrail/frame-selection-for-producing-recipe-with-pictures-from-an-execution-video-of-a-recipe"
 
 
-[[params.domestic_conference]]
-    [[params.domestic_conference.paper]]
-        name = "音響特徴量を活用した動画内区間検索及びハイライト検出"
-        authors = "今村 剛大, <u>西村 太一</u>, 小松 達也, 戸田 智基"
-        dest = "第152回 日本音響学会 (ASJ2024)"
-        link = ""
-        blog_link = ""
+    [[params.domestic_conference]]
+        [[params.domestic_conference.paper]]
+            name = "音響特徴量を活用した動画内区間検索及びハイライト検出"
+            authors = "今村 剛大, <u>西村 太一</u>, 小松 達也, 戸田 智基"
+            dest = "第152回 日本音響学会 (ASJ2024)"
+            link = ""
+            blog_link = ""
 
-    [[params.domestic_conference.paper]]
-        name = "自然言語による音響区間検索"
-        authors = "宗像 北斗, <u>西村 太一</u>, 仲田 勝太, 小松 達也"
-        dest = "第152回 日本音響学会 (ASJ2024)"
-        link = ""
-        blog_link = ""
+        [[params.domestic_conference.paper]]
+            name = "自然言語による音響区間検索"
+            authors = "宗像 北斗, <u>西村 太一</u>, 仲田 勝太, 小松 達也"
+            dest = "第152回 日本音響学会 (ASJ2024)"
+            link = ""
+            blog_link = ""
 
-    [[params.domestic_conference.paper]]
-        name = "Lighthouse: 再現可能で使いやすい動画区間検索のライブラリ"
-        authors = "<u>西村 太一</u>"
-        dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
-        link = ""
-        blog_link = ""
+        [[params.domestic_conference.paper]]
+            name = "Lighthouse: 再現可能で使いやすい動画区間検索のライブラリ"
+            authors = "<u>西村 太一</u>"
+            dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
+            link = ""
+            blog_link = ""
 
-    [[params.domestic_conference.paper]]
-        name = "音を発生させる物体を考慮した視聴覚表現学習"
-        authors = "仲田 勝太, <u>西村 太一</u>, 宗像 北斗, 小松 達也, 近藤 雅芳"
-        dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
-        link = ""
-        blog_link = ""
+        [[params.domestic_conference.paper]]
+            name = "音を発生させる物体を考慮した視聴覚表現学習"
+            authors = "仲田 勝太, <u>西村 太一</u>, 宗像 北斗, 小松 達也, 近藤 雅芳"
+            dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
+            link = ""
+            blog_link = ""
 
-    [[params.domestic_conference.paper]]
+        [[params.domestic_conference.paper]]
         name = "動画生成における文字崩れの評価のためのデータセットと評価指標の提案"
         authors = "青嶋 雄大, <u>西村 太一</u>, 近藤 雅芳"
         dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
