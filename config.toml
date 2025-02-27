@@ -92,11 +92,11 @@ publishDir = "docs"
 
     [[params.preprint.paper]]
         name = "BioVL-QR: Egocentric Biochemical Video-and-Language Dataset Using Micro QR Codes"
-        authors = "<u>Taichi Nishimura</u>, Koki Yamamoto, Yuto Haneji, Keiya Kajimura, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, Hirotaka Kameko, Shinsuke Mori"
+        authors = "Tomohiro Nishimoto, <u>Taichi Nishimura</u>, Koki Yamamoto, Keisuke Shirai, Hirotaka Kameko, Yuto Haneji, Tomoya Yoshida, Keiya Kajimura, Taiyu Cui, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, Shinsuke Mori"
         dest = "arXiv:2404.03161"
         link = "https://arxiv.org/abs/2404.03161"
-        code_link = ""
-        blog_link = ""
+        code_link = "https://github.com/nishi10mo/BioVLQR_StepLocalization"
+        blog_link = "https://nishi10mo.github.io/BioVL-QR/"
 
     [[params.preprint.paper]]
         name = "Text-driven Affordance Learning from Egocentric Vision"
@@ -581,12 +581,3 @@ publishDir = "docs"
 		link = "https://confit.atlas.jp/guide/event/vrsj2017/subject/1E3-04/detail"
 		code_link = ""
 		blog_link = ""
-
-[[params.work]]
-  [[params.work.detail]]
-		name = "OMRON SINIC X Corporation"
-		duration = '2020/02 ~ 2020/03'
-		position  = "Research Assistant"
-        location = "Tokyo"
-		mentor = "Mentor: Atsushi Hashimoto, Yoshitaka Ushiku"
-		code_link = ""
