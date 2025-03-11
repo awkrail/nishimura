@@ -154,7 +154,7 @@ publishDir = "docs"
         dest = "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR25)"
         link = ""
         code_link = ""
-        blog_link = ""
+        blog_link = "https://biscue5.github.io/egoscaler-project-page"
 
     [[params.international_conference.paper]]
         name = "Language-based Audio Moment Retrieval"
