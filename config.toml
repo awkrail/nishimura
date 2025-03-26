@@ -99,14 +99,6 @@ publishDir = "docs"
         blog_link = "https://nishi10mo.github.io/BioVL-QR/"
 
     [[params.preprint.paper]]
-        name = "Text-driven Affordance Learning from Egocentric Vision"
-        authors = "Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori"
-        dest = "arXiv:2404.02523"
-        link = "https://arxiv.org/abs/2404.02523"
-        code_link = ""
-        blog_link = ""
-
-    [[params.preprint.paper]]
         name = "On the Audio Hallucinations in Large Audio-Video Language Models"
         authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
         dest = "arXiv:2401.09774"
@@ -115,6 +107,13 @@ publishDir = "docs"
         blog_link = ""
 
 [[params.journal]]
+    [[params.journal.paper]]
+        name = "Text-driven Affordance Learning from Egocentric Vision"
+        authors = "Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori"
+        dest = "Advanced Robotics (minor revision)"
+        link = "https://arxiv.org/abs/2404.02523"
+        code_link = ""
+
     [[params.journal.paper]]
         name = "Vision-Language Models Learn Super Images for Efficient Partially Relevant Video Retrieval"
         authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
@@ -276,28 +275,28 @@ publishDir = "docs"
         code_link = ""
 
     [[params.international_conference.paper]]
-		name = "Visual Grounding Annotation of Recipe Flow Graph"
-		authors = '<u>Taichi Nishimura</u>, Suzushi Tomori, Hayato Hashimoto, Atsushi Hashimoto, Yoko Yamakata, Jun Harashima, Yoshitaka Ushiku and Shinsuke Mori'
-		dest  = "The 12th International Conference on Language Resources and Evaluation (LREC2020)"
-		link = "https://www.aclweb.org/anthology/2020.lrec-1.527.pdf"
-		code_link = ""
-		blog_link = ""
+        name = "Visual Grounding Annotation of Recipe Flow Graph"
+        authors = '<u>Taichi Nishimura</u>, Suzushi Tomori, Hayato Hashimoto, Atsushi Hashimoto, Yoko Yamakata, Jun Harashima, Yoshitaka Ushiku and Shinsuke Mori'
+        dest  = "The 12th International Conference on Language Resources and Evaluation (LREC2020)"
+        link = "https://www.aclweb.org/anthology/2020.lrec-1.527.pdf"
+        code_link = ""
+        blog_link = ""
 
     [[params.international_conference.paper]]
-		name = "Procedural Text Generation from a Photo Sequence"
-		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, and Shinsuke Mori'
-		dest  = "The 12th International Conference on Natural Language Generation (INLG2019)"
-		link = "https://aclanthology.org/W19-8650/"
-		code_link = ""
-		blog_link = "https://drive.google.com/file/d/10z_cFHy3O_zqjRF7fAAKjW7MN3AREbqH/view?usp=sharing"
+        name = "Procedural Text Generation from a Photo Sequence"
+        authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, and Shinsuke Mori'
+        dest  = "The 12th International Conference on Natural Language Generation (INLG2019)"
+        link = "https://aclanthology.org/W19-8650/"
+        code_link = ""
+        blog_link = "https://drive.google.com/file/d/10z_cFHy3O_zqjRF7fAAKjW7MN3AREbqH/view?usp=sharing"
 
     [[params.international_conference.paper]]
-		name = "Frame Selection for Producing Recipe with Pictures from an Execution Video of a Recipe"
-		authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoko Yamakata, and Shinsuke Mori <font color="red"> (Best Paper Award)</font>'
-		dest  = "The 11th Workshop on Multimedia for Cooking and Eating Activities in conjunction with ICMR2019 (CEA2019)"
-		link = "https://dl.acm.org/doi/10.1145/3326458.3326928"
-		code_link = ""
-		blog_link = "https://speakerdeck.com/awkrail/frame-selection-for-producing-recipe-with-pictures-from-an-execution-video-of-a-recipe"
+        name = "Frame Selection for Producing Recipe with Pictures from an Execution Video of a Recipe"
+        authors = '<u>Taichi Nishimura</u>, Atsushi Hashimoto, Yoko Yamakata, and Shinsuke Mori <font color="red"> (Best Paper Award)</font>'
+        dest  = "The 11th Workshop on Multimedia for Cooking and Eating Activities in conjunction with ICMR2019 (CEA2019)"
+        link = "https://dl.acm.org/doi/10.1145/3326458.3326928"
+        code_link = ""
+        blog_link = "https://speakerdeck.com/awkrail/frame-selection-for-producing-recipe-with-pictures-from-an-execution-video-of-a-recipe"
 
 
 [[params.domestic_conference]]
@@ -518,58 +517,58 @@ publishDir = "docs"
         code_link = ""
         blog_link = ""
 
-	[[params.domestic_conference.paper]]
-		name = "写真列と構造要素からの手順構造と手順書の同時学習"
-		authors = '<u>西村 太一</u>, 橋本 敦史, 牛久 祥孝, 森 信介'
-		dest  = "言語処理学会第26回年次大会 (NLP2020)"
-		link = "https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/A1-3.pdf"
-		code_link = ""
-		blog_link = ""
-
-	[[params.domestic_conference.paper]]
-		name = "レシピフローグラフへのVisual Groundingアノテーション"
-		authors = '<u>西村 太一</u>, 友利 涼, 橋本 隼人, 橋本 敦史, 山肩 洋子, 原島 純, 牛久 祥孝, 森 信介'
-		dest  = "言語処理学会第26回年次大会 (NLP2020)"
-		link = "https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/A1-2.pdf"
-		code_link = ""
-		blog_link = ""
+    [[params.domestic_conference.paper]]
+        name = "写真列と構造要素からの手順構造と手順書の同時学習"
+        authors = '<u>西村 太一</u>, 橋本 敦史, 牛久 祥孝, 森 信介'
+        dest  = "言語処理学会第26回年次大会 (NLP2020)"
+        link = "https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/A1-3.pdf"
+        code_link = ""
+        blog_link = ""
 
     [[params.domestic_conference.paper]]
-		name = "重要語に着目した写真列からのレシピの自動生成"
-		authors = '<u>西村 太一</u>, 橋本 敦史, 森 信介'
-		dest  = "自然言語処理 Vol. 27 (2)"
-		link = "https://www.jstage.jst.go.jp/article/jnlp/27/2/27_257/_pdf/-char/en"
-		code_link = ""
-		blog_link = ""
-
-	[[params.domestic_conference.paper]]
-		name = "作業写真列からの手順書の自動生成"
-		authors = '<u>西村 太一</u>, 橋本 敦史, 森 信介'
-		dest  = "ヒューマンコミュニケーション基礎研究会 (HCS)"
-		link = "https://www.ieice.org/ken/paper/2019102641Qi/"
-		code_link = ""
-		blog_link = ""
-
-	[[params.domestic_conference.paper]]
-		name = "Bounding Boxを付与したフローグラフコーパスの提案"
-		authors = '<u>西村 太一</u>, 橋本 敦史, 原島 純, 山肩 洋子, 森 信介'
-		dest  = "自然言語処理若手の会 (yans2019)"
-		link = "http://www.lsta.media.kyoto-u.ac.jp/member/nishimura/papers/yans2019/poster.pdf"
-		code_link = ""
-		blog_link = ""
+        name = "レシピフローグラフへのVisual Groundingアノテーション"
+        authors = '<u>西村 太一</u>, 友利 涼, 橋本 隼人, 橋本 敦史, 山肩 洋子, 原島 純, 牛久 祥孝, 森 信介'
+        dest  = "言語処理学会第26回年次大会 (NLP2020)"
+        link = "https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/A1-2.pdf"
+        code_link = ""
+        blog_link = ""
 
     [[params.domestic_conference.paper]]
-		name = "写真付き手順書生成のための実施映像からのフレーム選択"
-		authors = '<u>西村 太一</u>, 橋本 敦史, 山肩 洋子, 森 信介'
-		dest  = "第11回データ工学と情報マネジメントに関するフォーラム (DEIM2019)"
-		link = "https://db-event.jpn.org/deim2019/post/papers/200.pdf"
-		code_link = ""
-		blog_link = ""
+        name = "重要語に着目した写真列からのレシピの自動生成"
+        authors = '<u>西村 太一</u>, 橋本 敦史, 森 信介'
+        dest  = "自然言語処理 Vol. 27 (2)"
+        link = "https://www.jstage.jst.go.jp/article/jnlp/27/2/27_257/_pdf/-char/en"
+        code_link = ""
+        blog_link = ""
 
     [[params.domestic_conference.paper]]
-		name = "テキスタイルセンサを用いた腹巻型笑いログシステムによる笑い検出の検討"
-		authors = '島﨑 郁花, <u>西村 太一</u>, 上岡 玲子'
-		dest  = "第22回日本バーチャルリアリティ学会 (VRSJ2017)"
-		link = "https://confit.atlas.jp/guide/event/vrsj2017/subject/1E3-04/detail"
-		code_link = ""
-		blog_link = ""
+        name = "作業写真列からの手順書の自動生成"
+        authors = '<u>西村 太一</u>, 橋本 敦史, 森 信介'
+        dest  = "ヒューマンコミュニケーション基礎研究会 (HCS)"
+        link = "https://www.ieice.org/ken/paper/2019102641Qi/"
+        code_link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "Bounding Boxを付与したフローグラフコーパスの提案"
+        authors = '<u>西村 太一</u>, 橋本 敦史, 原島 純, 山肩 洋子, 森 信介'
+        dest  = "自然言語処理若手の会 (yans2019)"
+        link = "http://www.lsta.media.kyoto-u.ac.jp/member/nishimura/papers/yans2019/poster.pdf"
+        code_link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "写真付き手順書生成のための実施映像からのフレーム選択"
+        authors = '<u>西村 太一</u>, 橋本 敦史, 山肩 洋子, 森 信介'
+        dest  = "第11回データ工学と情報マネジメントに関するフォーラム (DEIM2019)"
+        link = "https://db-event.jpn.org/deim2019/post/papers/200.pdf"
+        code_link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
+        name = "テキスタイルセンサを用いた腹巻型笑いログシステムによる笑い検出の検討"
+        authors = '島﨑 郁花, <u>西村 太一</u>, 上岡 玲子'
+        dest  = "第22回日本バーチャルリアリティ学会 (VRSJ2017)"
+        link = "https://confit.atlas.jp/guide/event/vrsj2017/subject/1E3-04/detail"
+        code_link = ""
+        blog_link = ""
