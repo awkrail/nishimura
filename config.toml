@@ -149,7 +149,7 @@ publishDir = "docs"
 [[params.international_conference]]
     [[params.international_conference.paper]]
         name = "Generating 6DoF Object Manipulation Trajectories from Action Description in Egocentric Vision"
-        authors = "Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori"
+        authors = 'Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori <font color="red"> (Highlight)</font>'
         dest = "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR25)"
         link = ""
         code_link = ""
