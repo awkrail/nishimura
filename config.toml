@@ -21,7 +21,7 @@ publishDir = "docs"
 
 [[params.work]]
     [[params.work.career]]
-        name = "Sony Interactive Entertainment (PlayStation)"
+        name = "PlayStation"
         position = "Senior Machine Learning Engineer"
         start = "Feburary 2025"
         end = "Present"
@@ -306,37 +306,43 @@ publishDir = "docs"
         code_link = ""
         blog_link = "https://speakerdeck.com/awkrail/frame-selection-for-producing-recipe-with-pictures-from-an-execution-video-of-a-recipe"
 
+[[params.domestic_conference]]
+    [[params.domestic_conference.paper]]
+        name = "ICASSP2025における音響-言語モデルの動向"
+        authors = "宗像 北斗, <u>西村 太一</u>, 仲田 勝太, 小松 達也"
+        dest = "電気音響研究会 / 応用音響研究会"
+        link = ""
+        blog_link = ""
 
-    [[params.domestic_conference]]
-        [[params.domestic_conference.paper]]
-            name = "音響特徴量を活用した動画内区間検索及びハイライト検出"
-            authors = "今村 剛大, <u>西村 太一</u>, 小松 達也, 戸田 智基"
-            dest = "第152回 日本音響学会 (ASJ2024)"
-            link = ""
-            blog_link = ""
+    [[params.domestic_conference.paper]]
+        name = "音響特徴量を活用した動画内区間検索及びハイライト検出"
+        authors = "今村 剛大, <u>西村 太一</u>, 小松 達也, 戸田 智基"
+        dest = "第152回 日本音響学会 (ASJ2024)"
+        link = ""
+        blog_link = ""
 
-        [[params.domestic_conference.paper]]
-            name = "自然言語による音響区間検索"
-            authors = "宗像 北斗, <u>西村 太一</u>, 仲田 勝太, 小松 達也"
-            dest = "第152回 日本音響学会 (ASJ2024)"
-            link = ""
-            blog_link = ""
+    [[params.domestic_conference.paper]]
+        name = "自然言語による音響区間検索"
+        authors = "宗像 北斗, <u>西村 太一</u>, 仲田 勝太, 小松 達也"
+        dest = "第152回 日本音響学会 (ASJ2024)"
+        link = ""
+        blog_link = ""
 
-        [[params.domestic_conference.paper]]
-            name = "Lighthouse: 再現可能で使いやすい動画区間検索のライブラリ"
-            authors = "<u>西村 太一</u>"
-            dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
-            link = ""
-            blog_link = ""
+    [[params.domestic_conference.paper]]
+        name = "Lighthouse: 再現可能で使いやすい動画区間検索のライブラリ"
+        authors = "<u>西村 太一</u>"
+        dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
+        link = ""
+        blog_link = ""
 
-        [[params.domestic_conference.paper]]
-            name = "音を発生させる物体を考慮した視聴覚表現学習"
-            authors = "仲田 勝太, <u>西村 太一</u>, 宗像 北斗, 小松 達也, 近藤 雅芳"
-            dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
-            link = ""
-            blog_link = ""
+    [[params.domestic_conference.paper]]
+        name = "音を発生させる物体を考慮した視聴覚表現学習"
+        authors = "仲田 勝太, <u>西村 太一</u>, 宗像 北斗, 小松 達也, 近藤 雅芳"
+        dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
+        link = ""
+        blog_link = ""
 
-        [[params.domestic_conference.paper]]
+    [[params.domestic_conference.paper]]
         name = "動画生成における文字崩れの評価のためのデータセットと評価指標の提案"
         authors = "青嶋 雄大, <u>西村 太一</u>, 近藤 雅芳"
         dest = "第27回 画像の認識・理解シンポジウム (MIRU2024)"
