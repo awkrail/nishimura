@@ -151,8 +151,8 @@ publishDir = "docs"
         name = "Generating 6DoF Object Manipulation Trajectories from Action Description in Egocentric Vision"
         authors = 'Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori <font color="red"> (Highlight)</font>'
         dest = "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR25)"
-        link = "https://www.lsta.media.kyoto-u.ac.jp/publications/yoshida-CVPR2025.pdf"
-        code_link = ""
+        link = "https://arxiv.org/abs/2506.03605"
+        code_link = "https://github.com/Biscue5/EgoScaler"
         blog_link = "https://biscue5.github.io/egoscaler-project-page"
 
     [[params.international_conference.paper]]
