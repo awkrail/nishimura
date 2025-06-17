@@ -308,6 +308,13 @@ publishDir = "docs"
 
 [[params.domestic_conference]]
     [[params.domestic_conference.paper]]
+        name = "BioVL-QR: マイクロQRコードを用いた生化学分野の一人称視覚言語データセット"
+        authors = "西本 智裕, <u>西村 太一</u>, 山本 航輝, 白井 圭佑, 亀甲 博貴, 羽路 悠斗, 吉田 智哉, 梶村 恵矢, 崔 泰毓, 西脇 千紘, 大黒 恵理子, 奥田 奈津子, 小野 富三人, 森 信介"
+        dest = "第28回 画像の認識・理解シンポジウム (MIRU2025)"
+        link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
         name = "ICASSP2025における音響-言語モデルの動向"
         authors = "宗像 北斗, <u>西村 太一</u>, 仲田 勝太, 小松 達也"
         dest = "電気音響研究会 / 応用音響研究会"
