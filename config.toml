@@ -102,7 +102,7 @@ publishDir = "docs"
     [[params.journal.paper]]
         name = "Text-driven Affordance Learning from Egocentric Vision"
         authors = "Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori"
-        dest = "Advanced Robotics (minor revision)"
+        dest = "Advanced Robotics"
         link = "https://arxiv.org/abs/2404.02523"
         code_link = ""
 
