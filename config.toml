@@ -83,14 +83,6 @@ publishDir = "docs"
   
 [[params.preprint]]
     [[params.preprint.paper]]
-        name = "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts"
-        authors = "Yuto Haneji, <u>Taichi Nishimura</u>, Hirotaka Kameko, Keisuke Shirai, Tomoya Yoshida, Keiya Kajimura, Koki Yamamoto, Taiyu Cui, Tomohiro Nishimoto, Shinsuke Mori"
-        dest = "arXiv:2410.05343"
-        link = "https://arxiv.org/abs/2410.05343"
-        code_link = "https://github.com/Y-Haneji/EgoOops-annotations/"
-        blog_link = "https://y-haneji.github.io/EgoOops-project-page/"
-
-    [[params.preprint.paper]]
         name = "On the Audio Hallucinations in Large Audio-Video Language Models"
         authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
         dest = "arXiv:2401.09774"
@@ -139,6 +131,13 @@ publishDir = "docs"
         blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
 
 [[params.international_conference]]
+    [[params.international_conference.paper]]
+        name = "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts"
+        authors = "Yuto Haneji, <u>Taichi Nishimura</u>, Hirotaka Kameko, Keisuke Shirai, Tomoya Yoshida, Keiya Kajimura, Koki Yamamoto, Taiyu Cui, Tomohiro Nishimoto, Shinsuke Mori"
+        dest = "The ICCV Workshop on AI-driven Skilled Activity Understanding, Assessment & Feedback Generation in conjunction with ICCV25 (SAUAFG25)"
+        link = "https://arxiv.org/abs/2410.05343"
+        code_link = "https://github.com/Y-Haneji/EgoOops-annotations/"
+
     [[params.international_conference.paper]]
         name = "BioVL-QR: Egocentric Biochemical Vision-and-Language Dataset Using Micro QR Codes"
         authors = "Tomohiro Nishimoto, <u>Taichi Nishimura</u>, Koki Yamamoto, Keisuke Shirai, Hirotaka Kameko, Yuto Haneji, Tomoya Yoshida, Keiya Kajimura, Taiyu Cui, Chihiro Nishiwaki, Eriko Daikoku, Natsuko Okuda, Fumihito Ono, Shinsuke Mori"
