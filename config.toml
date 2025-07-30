@@ -317,7 +317,7 @@ publishDir = "docs"
         name = "ICASSP2025における音響-言語モデルの動向"
         authors = "宗像 北斗, <u>西村 太一</u>, 仲田 勝太, 小松 達也"
         dest = "電気音響研究会 / 応用音響研究会"
-        link = ""
+        link = "https://ken.ieice.org/ken/paper/20250528VcK4"
         blog_link = ""
 
     [[params.domestic_conference.paper]]
