@@ -28,7 +28,7 @@ publishDir = "docs"
 
     [[params.work.career]]
         name = "LY Corporation"
-        position = "Computer vision research engineer"
+        position = "Computer Vision Research Engineer"
         start = "October 2023"
         end = "December 2024"
 
@@ -71,15 +71,14 @@ publishDir = "docs"
 
 [[params.softwares]]
     [[params.softwares.software]]
-        name = "Shutoh"
-        link = "https://github.com/awkrail/shutoh"
-        description = "A fast scene detector implemented in C++20. Inspired by PySceneDetect, Shutoh aims to provide a powerful and flexible alternative with enhanced performance. Shutoh achieves 2x~4x faster than PySceneDetect and supports not only rule-based (PySceneDetect), but also ML-based and neural-based scene detectors."
-
-    [[params.softwares.software]]
         name = "line/lighthouse"
         link = "https://github.com/line/lighthouse"
         description = "A user-friendly library for reproducible video moment retrieval and highlight detection (MR-HD). It supports six models, three features, and five datasets. In addition, we prepare an inference-only API and demo for developers to use MR-HD methods easily."
 
+    [[params.softwares.software]]
+        name = "Shutoh"
+        link = "https://github.com/awkrail/shutoh"
+        description = "A fast scene detector implemented in C++20. Inspired by PySceneDetect, Shutoh aims to provide a powerful and flexible alternative with enhanced performance. Shutoh achieves 2x~4x faster than PySceneDetect and supports not only rule-based (PySceneDetect), but also ML-based and neural-based scene detectors."
   
 [[params.preprint]]
     [[params.preprint.paper]]
