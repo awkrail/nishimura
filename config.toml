@@ -139,6 +139,14 @@ publishDir = "docs"
 
 [[params.international_conference]]
     [[params.international_conference.paper]]
+        name = "CASTELLA: Long Audio Dataset with Captions and Temporal Boundaries"
+        authors = "Hokuto Munakata, Takehiro Imamura, <u>Taichi Nishimura</u>, Tatsuya Komatsu"
+        dest = "IEEE International Conference on Acoustic, Speech, and Signal Processing (ICASSP26)"
+        link = "https://arxiv.org/abs/2511.15131"
+        code_link = "https://github.com/line/lighthouse"
+        blog_link = "https://h-munakata.github.io/CASTELLA-demo/"
+
+    [[params.international_conference.paper]]
         name = "EgoOops: A Dataset for Mistake Action Detection from Egocentric Videos with Procedural Texts"
         authors = "Yuto Haneji, <u>Taichi Nishimura</u>, Hirotaka Kameko, Keisuke Shirai, Tomoya Yoshida, Keiya Kajimura, Koki Yamamoto, Taiyu Cui, Tomohiro Nishimoto, Shinsuke Mori"
         dest = "The ICCV Workshop on AI-driven Skilled Activity Understanding, Assessment & Feedback Generation in conjunction with ICCV25 (SAUAFG25)"
