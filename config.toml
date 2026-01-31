@@ -81,13 +81,6 @@ publishDir = "docs"
         description = "A fast scene detector implemented in C++20. Inspired by PySceneDetect, Shutoh aims to provide a powerful and flexible alternative with enhanced performance. Shutoh achieves 2x~4x faster than PySceneDetect and supports not only rule-based (PySceneDetect), but also ML-based and neural-based scene detectors."
   
 [[params.preprint]]
-    [[params.preprint.paper]]
-        name = "Developing Vision-Language-Action Model from Egocentric Videos"
-        authors = "Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori"
-        dest = "arXiv:2509.21986"
-        link = "https://www.arxiv.org/abs/2509.21986"
-        code_link = ""
-        blog_link = ""
 
     [[params.preprint.paper]]
         name = "On the Audio Hallucinations in Large Audio-Video Language Models"
@@ -138,6 +131,14 @@ publishDir = "docs"
         blog_link = "https://speakerdeck.com/awkrail/structure-aware-procedural-text-generation-from-an-image-sequence?slide=4"
 
 [[params.international_conference]]
+    [[params.international_conference.paper]]
+        name = "Developing Vision-Language-Action Model from Egocentric Videos"
+        authors = "Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori"
+        dest = "IEEE International Conference on Robotics and Automation (ICRA26)"
+        link = "https://www.arxiv.org/abs/2509.21986"
+        code_link = ""
+        blog_link = ""
+
     [[params.international_conference.paper]]
         name = "CASTELLA: Long Audio Dataset with Captions and Temporal Boundaries"
         authors = "Hokuto Munakata, Takehiro Imamura, <u>Taichi Nishimura</u>, Tatsuya Komatsu"
