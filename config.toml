@@ -323,6 +323,13 @@ publishDir = "docs"
 
 [[params.domestic_conference]]
     [[params.domestic_conference.paper]]
+        name = "歴史資料を対象とした画像とテキストのクロスモーダル検索"
+        authors = "亀甲 博貴, 朱,捷咏, <u>西村 太一</u>, 後藤 真, 森 信介"
+        dest = "情報処理学会論文誌"
+        link = "https://ipsj.ixsq.nii.ac.jp/records/2006765"
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
         name = "BioVL-QR: マイクロQRコードを用いた生化学分野の一人称視覚言語データセット"
         authors = "西本 智裕, <u>西村 太一</u>, 山本 航輝, 白井 圭佑, 亀甲 博貴, 羽路 悠斗, 吉田 智哉, 梶村 恵矢, 崔 泰毓, 西脇 千紘, 大黒 恵理子, 奥田 奈津子, 小野 富三人, 森 信介"
         dest = "第28回 画像の認識・理解シンポジウム (MIRU2025)"
