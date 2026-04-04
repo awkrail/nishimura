@@ -132,6 +132,14 @@ publishDir = "docs"
 
 [[params.international_conference]]
     [[params.international_conference.paper]]
+        name = "DCASE 2026 Challenge 6: Audio Moment Retrieval from Long Audio"
+        authors = "Hokuto Munakata, Tatsuya Komatsu, Keisuke Imoto, <u>Taichi Nishimura</u>, Paul Primus, Huang Xie, Tuomas Virtanen"
+        dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events Workshop (DCASE26 Workshop)"
+        link = "https://dcase.community/challenge2026/task-audio-moment-retrieval-from-long-audio"
+        code_link = "https://github.com/awkrail/dcase2026_task6_baseline"
+        blog_link = ""
+
+    [[params.international_conference.paper]]
         name = "Developing Vision-Language-Action Model from Egocentric Videos"
         authors = "Tomoya Yoshida, Shuhei Kurita, <u>Taichi Nishimura</u>, Shinsuke Mori"
         dest = "IEEE International Conference on Robotics and Automation (ICRA26)"
