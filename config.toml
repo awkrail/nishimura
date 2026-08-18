@@ -81,7 +81,6 @@ publishDir = "docs"
         description = "A fast scene detector implemented in C++20. Inspired by PySceneDetect, Shutoh aims to provide a powerful and flexible alternative with enhanced performance. Shutoh achieves 2x~4x faster than PySceneDetect and supports not only rule-based (PySceneDetect), but also ML-based and neural-based scene detectors."
   
 [[params.preprint]]
-
     [[params.preprint.paper]]
         name = "On the Audio Hallucinations in Large Audio-Video Language Models"
         authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
@@ -132,9 +131,17 @@ publishDir = "docs"
 
 [[params.international_conference]]
     [[params.international_conference.paper]]
+        name = "Overview and Meta-Analysis of DCASE 2026 Challenge Task 6: Audio Moment Retrieval from Long Audio"
+        authors = "Hokuto Munakata, Tatsuya Komatsu, Keisuke Imoto, <u>Taichi Nishimura</u>, Huang Xie, Tuomas Virtanen"
+        dest = "IEEE AASP Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE26 Workshop)"
+        link = ""
+        code_link = "https://github.com/awkrail/dcase2026_task6_baseline"
+        blog_link = ""
+
+    [[params.international_conference.paper]]
         name = "DCASE 2026 Challenge 6: Audio Moment Retrieval from Long Audio"
         authors = "Hokuto Munakata, Tatsuya Komatsu, Keisuke Imoto, <u>Taichi Nishimura</u>, Paul Primus, Huang Xie, Tuomas Virtanen"
-        dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events Workshop (DCASE26 Workshop)"
+        dest = "IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events (DCASE26 Challenge)"
         link = "https://dcase.community/challenge2026/task-audio-moment-retrieval-from-long-audio"
         code_link = "https://github.com/awkrail/dcase2026_task6_baseline"
         blog_link = ""
@@ -331,8 +338,15 @@ publishDir = "docs"
 
 [[params.domestic_conference]]
     [[params.domestic_conference.paper]]
+        name = "一人称視点における動作記述からの6自由度物体操作軌道の生成"
+        authors = "吉田 智哉, 栗田 修平, <u>西村 太一</u>, 森 信介"
+        dest = "人工知能学会論文誌"
+        link = ""
+        blog_link = ""
+
+    [[params.domestic_conference.paper]]
         name = "歴史資料を対象とした画像とテキストのクロスモーダル検索"
-        authors = "亀甲 博貴, 朱,捷咏, <u>西村 太一</u>, 後藤 真, 森 信介"
+        authors = "亀甲 博貴, 朱 捷咏, <u>西村 太一</u>, 後藤 真, 森 信介"
         dest = "情報処理学会論文誌"
         link = "https://ipsj.ixsq.nii.ac.jp/records/2006765"
         blog_link = ""
