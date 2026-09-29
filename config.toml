@@ -82,10 +82,10 @@ publishDir = "docs"
   
 [[params.preprint]]
     [[params.preprint.paper]]
-        name = "On the Audio Hallucinations in Large Audio-Video Language Models"
-        authors = "<u>Taichi Nishimura</u>, Shota Nakada, Masayoshi Kondo"
-        dest = "arXiv:2401.09774"
-        link = "https://arxiv.org/abs/2401.09774"
+        name = "I-Parakeet: Integer-Only Conformer ASR on Mobile NPU"
+        authors = "<u>Taichi Nishimura</u>"
+        dest = "arXiv:2609.30846"
+        link = "https://arxiv.org/abs/2609.30846"
         code_link = ""
         blog_link = ""
 
